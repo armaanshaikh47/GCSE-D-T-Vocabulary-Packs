@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1.8–1.12 Categorisation of Materials — Vocabulary Pack | GCSE D&T</title>
+<style>
+/* WASCZ EDT — GCSE D&T VOCABULARY PACK · HOUSE TEMPLATE v2
+   No external requests. Works offline and behind the GFW. */
+:root{
+  --navy:#0d1b2a; --amber:#d97706; --green:#166534; --red:#c0392b;
+  --teal:#0e7490; --purple:#5b21b6; --bg:#f0f4f8;
+  --accent:#365314; --accentLt:#ecfccb;
+  --secA:#365314; --secB:#b45309; --secC:#0f766e;
+  --line:#d9e2ec; --ink:#14202e; --muted:#5b6b7c;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  --serif:Georgia,"Times New Roman","Songti SC","SimSun",serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.6;writing-mode:horizontal-tb;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px 70px;}
+header{background:var(--navy);color:#fff;padding:26px 0 0;}
+.hd{max-width:1180px;margin:0 auto;padding:0 18px;}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accentLt);margin:0 0 6px;}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4.4vw,40px);line-height:1.14;margin:0 0 8px;}
+.sub{color:#b9c7d6;font-size:15px;margin:0 0 18px;max-width:800px;}
+.hmeta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
+.chip{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);color:#e8f0f7;
+  font-family:var(--mono);font-size:11.5px;padding:5px 10px;border-radius:20px;}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;}
+nav.tabs button{background:rgba(255,255,255,.07);color:#cbd8e4;border:0;border-radius:10px 10px 0 0;
+  font-family:var(--sans);font-size:14.5px;font-weight:600;padding:13px 18px;cursor:pointer;white-space:nowrap;min-height:46px;}
+nav.tabs button:hover{background:rgba(255,255,255,.14);color:#fff;}
+nav.tabs button.on{background:var(--bg);color:var(--navy);}
+main{padding-top:26px;}
+.panel{display:none;} .panel.on{display:block;}
+h2{font-family:var(--serif);font-size:25px;font-weight:700;margin:34px 0 6px;color:var(--navy);}
+h2:first-child{margin-top:0;}
+h3{font-size:17px;font-weight:600;margin:26px 0 10px;color:var(--navy);}
+p.lead{color:var(--muted);margin:0 0 18px;max-width:840px;}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:18px;}
+.esl-tip{background:#fff8e6;border-left:5px solid var(--amber);border-radius:0 10px 10px 0;padding:14px 16px;margin:16px 0;font-size:14.5px;}
+.esl-tip strong{color:#92400e;}
+.note{background:var(--accentLt);border-left:5px solid var(--accent);border-radius:0 10px 10px 0;padding:14px 16px;margin:16px 0;font-size:14.5px;}
+.spec{font-family:var(--mono);font-size:11.5px;background:var(--navy);color:#fff;padding:3px 8px;border-radius:5px;display:inline-block;}
+.ctrls{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:22px;
+  display:flex;flex-wrap:wrap;gap:18px;align-items:center;}
+.ctrl-grp{display:flex;flex-wrap:wrap;gap:7px;align-items:center;}
+.ctrl-lbl{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+.fbtn{background:#eef3f8;border:1.5px solid transparent;color:var(--navy);border-radius:22px;
+  font-family:var(--sans);font-size:13.5px;font-weight:600;padding:9px 15px;cursor:pointer;min-height:40px;}
+.fbtn:hover{background:#e1eaf3;} .fbtn.on{background:var(--accent);color:#fff;}
+.tgl{background:#fff;border:1.5px solid var(--line);color:var(--navy);border-radius:22px;
+  font-family:var(--sans);font-size:13.5px;font-weight:600;padding:9px 15px;cursor:pointer;min-height:40px;}
+.tgl.on{background:var(--navy);color:#fff;border-color:var(--navy);}
+.set-hd{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:26px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--line);}
+.set-n{font-family:var(--mono);font-size:12px;color:#fff;background:var(--accent);padding:4px 10px;border-radius:6px;}
+.set-t{font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy);}
+.set-c{font-size:13px;color:var(--muted);margin-left:auto;font-family:var(--mono);}
+.secA .set-n{background:var(--secA);} .secB .set-n{background:var(--secB);} .secC .set-n{background:var(--secC);}
+.vocab-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px;align-items:start;}
+.vc{display:block;height:auto;overflow:visible;writing-mode:horizontal-tb;background:#fff;
+  border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;padding:15px 16px;}
+.vc.t1{border-left-color:var(--amber);background:#fffdf7;}
+.vc.t3{border-left-style:dashed;}
+.vc.mastered{box-shadow:inset 0 0 0 2px #b7e4c7;}
+.vc-top{display:flex;flex-direction:row;align-items:flex-start;gap:8px;writing-mode:horizontal-tb;margin-bottom:4px;}
+.vc-word{flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;writing-mode:horizontal-tb;
+  font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy);line-height:1.25;}
+.spk{flex-shrink:0;background:#eef3f8;border:0;border-radius:8px;cursor:pointer;font-size:15px;width:34px;height:34px;line-height:1;padding:0;}
+.spk:hover{background:var(--accentLt);}
+.vc-tag{flex-shrink:0;white-space:nowrap;writing-mode:horizontal-tb;font-family:var(--mono);font-size:10px;
+  letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px;background:#eef3f8;color:var(--muted);}
+.vc-tag.t1{background:#fef3c7;color:#92400e;}
+.vc-tag.t2{background:var(--accentLt);color:var(--navy);}
+.vc-tag.t3{background:#ede9fe;color:var(--purple);}
+.vc-body,.vc-def,.vc-ex,.vc-mem,.vc-l1{display:block;height:auto;overflow:visible;writing-mode:horizontal-tb;word-break:break-word;}
+.def-lbl{display:none;}
+.vc-def{font-size:14.5px;margin:6px 0 0;}
+.vc-ex{font-size:13.5px;color:var(--muted);margin-top:8px;padding-left:11px;border-left:2px solid var(--line);}
+.vc-mem{font-size:13px;margin-top:9px;background:#fff8e6;border-radius:7px;padding:8px 10px;color:#7c4a03;}
+.vc-l1{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);font-size:14px;display:none;}
+.vc-l1.show{display:block;}
+.l1row{display:flex;flex-direction:row;gap:8px;align-items:baseline;writing-mode:horizontal-tb;margin-top:3px;}
+.l1flag{flex-shrink:0;white-space:nowrap;font-family:var(--mono);font-size:10px;color:var(--muted);width:34px;}
+.l1txt{flex:1;min-width:0;writing-mode:horizontal-tb;word-break:break-word;color:var(--navy);}
+.l1btn{background:none;border:1px dashed var(--line);border-radius:16px;color:var(--muted);
+  font-family:var(--sans);font-size:12px;padding:5px 11px;cursor:pointer;margin-top:9px;min-height:34px;}
+.l1btn:hover{border-color:var(--accent);color:var(--accent);}
+.q{margin-bottom:15px;padding-bottom:15px;border-bottom:1px solid var(--line);}
+.q:last-of-type{border-bottom:0;}
+.qn{font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:4px;}
+.bank{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px;padding:14px;background:#eef3f8;border-radius:10px;}
+.bank span{background:#fff;border:1px solid var(--line);border-radius:18px;padding:6px 13px;font-size:14px;font-family:var(--mono);}
+input[type=text]{font-family:var(--sans);font-size:15px;padding:9px 11px;border:1.5px solid var(--line);
+  border-radius:8px;min-width:150px;min-height:42px;background:#fff;color:var(--ink);}
+input[type=text]:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent);}
+input.ok{border-color:var(--green);background:#eefbf3;}
+input.no{border-color:var(--red);background:#fdeeec;}
+.gap-line{font-size:15.5px;line-height:2.5;}
+.btn{background:var(--accent);color:#fff;border:0;border-radius:9px;font-family:var(--sans);
+  font-size:15px;font-weight:600;padding:12px 22px;cursor:pointer;min-height:46px;}
+.btn:hover{filter:brightness(1.12);}
+.btn.alt{background:#fff;color:var(--navy);border:1.5px solid var(--line);}
+.btnrow{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;}
+.score{margin-top:16px;padding:14px 16px;border-radius:10px;font-weight:600;display:none;}
+.score.show{display:block;}
+.score.good{background:#eefbf3;color:var(--green);border-left:5px solid var(--green);}
+.score.mid{background:#fff8e6;color:#92400e;border-left:5px solid var(--amber);}
+.best{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:8px;}
+.match{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.mcol{display:flex;flex-direction:column;gap:9px;}
+.mitem{background:#fff;border:1.5px solid var(--line);border-radius:9px;padding:12px 13px;cursor:pointer;
+  font-size:14.5px;text-align:left;min-height:46px;font-family:var(--sans);color:var(--ink);}
+.mitem:hover{border-color:var(--accent);}
+.mitem.sel{border-color:var(--navy);background:#eef3f8;}
+.mitem.done{border-color:var(--green);background:#eefbf3;color:var(--green);cursor:default;}
+.mitem.wrong{border-color:var(--red);background:#fdeeec;}
+.tf{background:#fff;border:1px solid var(--line);border-radius:11px;padding:15px;margin-bottom:12px;}
+.tf-s{font-size:15px;margin-bottom:11px;}
+.tf-b{display:flex;gap:9px;}
+.tf-b button{padding:9px 20px;border-radius:8px;border:1.5px solid var(--line);background:#fff;cursor:pointer;
+  font-family:var(--sans);font-size:14.5px;font-weight:600;min-height:44px;color:var(--ink);}
+.tf-b button:hover{border-color:var(--accent);}
+.tf-b button.ok{background:#eefbf3;border-color:var(--green);color:var(--green);}
+.tf-b button.no{background:#fdeeec;border-color:var(--red);color:var(--red);}
+.tf-fb{display:none;margin-top:11px;padding:11px 13px;border-radius:8px;font-size:14px;background:#eef3f8;}
+.tf-fb.show{display:block;}
+.rc{background:#fff;border:1px solid var(--line);border-radius:11px;padding:14px;margin-bottom:11px;}
+.rc-p{font-size:17px;color:var(--navy);margin-bottom:4px;}
+.rc-ru{font-size:13.5px;color:var(--muted);margin-bottom:10px;font-style:italic;}
+.dr{background:#fff;border:1px solid var(--line);border-radius:11px;padding:14px;margin-bottom:11px;}
+.dr-top{display:flex;flex-direction:row;gap:8px;align-items:flex-start;margin-bottom:8px;}
+.dr-n{flex-shrink:0;font-family:var(--mono);font-size:12px;color:var(--muted);width:26px;}
+.dr-d{flex:1;min-width:0;font-size:15px;}
+.dr-e{font-size:13px;color:var(--muted);margin:0 0 10px 26px;padding-left:10px;border-left:2px solid var(--line);}
+.dr-in{margin-left:26px;}
+.cov{background:var(--navy);color:#fff;border-radius:12px;padding:16px 18px;margin-bottom:18px;}
+.cov-n{font-family:var(--mono);font-size:30px;color:#8fd4ae;line-height:1.1;}
+.cov-l{font-size:14px;color:#b9c7d6;margin-top:4px;}
+.bar{height:9px;background:rgba(255,255,255,.16);border-radius:6px;margin-top:12px;overflow:hidden;}
+.bar i{display:block;height:100%;background:#8fd4ae;border-radius:6px;width:0;transition:width .4s;}
+.tbl-wrap{overflow-x:auto;margin:14px 0;}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:14px;background:#fff;}
+th{background:var(--navy);color:#fff;text-align:left;padding:11px 12px;font-weight:600;font-size:13px;}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+tr:nth-child(even) td{background:#fafcfe;}
+.ans{font-family:var(--mono);color:var(--green);font-weight:500;}
+.tl{display:flex;gap:5px;}
+.tl button{width:34px;height:34px;border-radius:50%;border:2px solid var(--line);background:#fff;
+  cursor:pointer;font-size:13px;line-height:1;padding:0;opacity:.35;}
+.tl button.on{opacity:1;border-color:var(--navy);}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:34px 18px 0;}
+@media(max-width:640px){.match{grid-template-columns:1fr;}.vocab-grid{grid-template-columns:1fr;}}
+@media print{
+  nav.tabs,.ctrls,.btnrow,.l1btn,.spk,header .hmeta{display:none!important;}
+  .panel{display:block!important;} body{background:#fff;}
+  .vc,.card,.tf{break-inside:avoid;}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="hd">
+    <p class="eyebrow">Edexcel GCSE (9–1) Design &amp; Technology · 1DT0 · Core content</p>
+    <h1>1.8–1.12 Categorisation of Materials — Vocabulary Pack</h1>
+    <p class="sub">Metals, papers and boards, polymers, fibres and textiles, and timbers — the five material families, their types, properties and uses. From your textbook pages 37–54. Learn the <strong>English</strong> — that is the language of your exam.</p>
+    <div class="hmeta">
+      <span class="chip">Spec 1.8 · 1.9 · 1.10 · 1.11 · 1.12</span>
+      <span class="chip">Textbook pp. 37–54</span>
+      <span class="chip" id="chipCount"></span>
+      <span class="chip">Your progress is saved</span>
+    </div>
+    <nav class="tabs">
+      <button class="on" data-p="vocab">📖 Vocabulary</button>
+      <button data-p="quiz">✏️ Quizzes</button>
+      <button data-p="drill">🎯 Word Drill</button>
+      <button data-p="ans">✅ Answers &amp; Tracker</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<section class="panel on" id="vocab">
+  <h2>How this pack is tiered</h2>
+  <p class="lead" id="tierLead"></p>
+  <div class="ctrls">
+    <div class="ctrl-grp">
+      <span class="ctrl-lbl">Show</span>
+      <button class="fbtn on" data-f="all" id="fAll"></button>
+      <button class="fbtn" data-f="1" id="f1"></button>
+      <button class="fbtn" data-f="2" id="f2"></button>
+      <button class="fbtn" data-f="3" id="f3"></button>
+    </div>
+    <div class="ctrl-grp">
+      <span class="ctrl-lbl">Translation</span>
+      <button class="tgl" id="l1all">Show 中文 / Русский</button>
+    </div>
+  </div>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Vocabulary Notebook:</strong> Translation is hidden on purpose. Read the English
+    definition first and try to picture it. Only press <em>中文 / Русский</em> if you are stuck. Then, in your notebook,
+    write the word, the English definition <em>in your own words</em>, and one original sentence about a real product.
+    Copying the definition does not build memory — rewriting it does.
+  </div>
+  <div id="cards"></div>
+</section>
+
+<section class="panel" id="quiz">
+  <h2>Retrieval Quizzes</h2>
+  <p class="lead">Do these <strong>without looking at the vocabulary tab</strong>. Getting it wrong first, then checking,
+    builds stronger memory than reading the answer. Your best score for each quiz is saved.</p>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Productive Failure:</strong> Guess before you check. A wrong guess that you then correct is
+    remembered about twice as well as an answer you simply read. Your score here is not a grade — it is a map of what to revise.
+  </div>
+  <div class="card">
+    <h3>Quiz 1 — Gap fill</h3>
+    <p class="lead">Type one word or phrase in each gap. Spelling must be close — this is exam spelling practice.</p>
+    <div class="bank" id="bank1"></div>
+    <div id="gaps" class="gap-line"></div>
+    <div class="btnrow">
+      <button class="btn" onclick="markGap()">Check my answers</button>
+      <button class="btn alt" onclick="resetGap()">Clear</button>
+    </div>
+    <div class="score" id="s1"></div><div class="best" id="b1"></div>
+  </div>
+  <div class="card">
+    <h3>Quiz 2 — Match the word to the meaning</h3>
+    <p class="lead">Click a word on the left, then its meaning on the right. Green = correct.</p>
+    <div class="match"><div class="mcol" id="mL"></div><div class="mcol" id="mR"></div></div>
+    <div class="btnrow"><button class="btn alt" onclick="buildMatch()">Shuffle &amp; restart</button></div>
+    <div class="score" id="s2"></div><div class="best" id="b2"></div>
+  </div>
+  <div class="card">
+    <h3>Quiz 3 — True or False? <span class="spec">Common exam mistakes</span></h3>
+    <p class="lead">Most of these are things students get wrong every year. Read the explanation after each one.</p>
+    <div id="tfbox"></div>
+    <div class="score" id="s3"></div><div class="best" id="b3"></div>
+  </div>
+  <div class="card">
+    <h3>Quiz 4 — Say it in English <span class="spec">L1 → English recall</span></h3>
+    <p class="lead">You know the concept in your own language. Now produce the English word the examiner needs to see.
+      This is the only place translation is used — as a <em>prompt</em>, never as an answer.</p>
+    <div id="recall"></div>
+    <div class="btnrow">
+      <button class="btn" onclick="markRecall()">Check my answers</button>
+      <button class="btn alt" onclick="resetRecall()">Clear</button>
+    </div>
+    <div class="score" id="s4"></div><div class="best" id="b4"></div>
+  </div>
+</section>
+
+<section class="panel" id="drill">
+  <h2>Word Drill</h2>
+  <p class="lead">Ten words at a time, chosen at random. Read the meaning, write the word. Every word in this pack
+    will come up eventually — the four quizzes above only reach some of them. A word counts as
+    <strong>learned</strong> once you have recalled it correctly here.</p>
+  <div class="cov">
+    <div class="cov-n" id="covN">0 / 0</div>
+    <div class="cov-l" id="covL">words recalled correctly so far</div>
+    <div class="bar"><i id="covBar"></i></div>
+  </div>
+  <div class="ctrls">
+    <div class="ctrl-grp">
+      <span class="ctrl-lbl">Drill from</span>
+      <button class="fbtn on" data-d="all">All</button>
+      <button class="fbtn" data-d="1">⭐ Essential</button>
+      <button class="fbtn" data-d="2">Core</button>
+      <button class="fbtn" data-d="3">Stretch</button>
+      <button class="fbtn" data-d="todo">Not yet learned</button>
+    </div>
+  </div>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Spacing:</strong> Ten words, then stop. Come back tomorrow rather than doing forty today.
+    The same word met on three different days is remembered far longer than the same word met three times in one hour.
+  </div>
+  <div id="drillbox"></div>
+  <div class="btnrow">
+    <button class="btn" onclick="markDrill()">Check my answers</button>
+    <button class="btn alt" onclick="buildDrill()">Next 10 words</button>
+  </div>
+  <div class="score" id="s5"></div>
+</section>
+
+<section class="panel" id="ans">
+  <h2>Your Progress</h2>
+  <div class="card" id="prog"></div>
+  <div class="btnrow">
+    <button class="btn alt" onclick="copyProgress()">Copy my progress</button>
+    <button class="btn alt" onclick="wipe()">Reset everything</button>
+  </div>
+  <p class="lead" style="margin-top:12px">“Copy my progress” puts a short summary on your clipboard. Paste it into
+    Teams when your teacher asks for it. Your progress is stored on this device only — it is not sent anywhere.</p>
+  <h2>Answer Key</h2>
+  <div class="note"><strong>Teacher note:</strong> print this tab only (File → Print) for peer- or self-marking.
+    Students should mark in a different colour pen and correct their own errors underneath.</div>
+  <h3>Quiz 1 — Gap fill</h3>
+  <div class="tbl-wrap"><table id="a1"><thead><tr><th style="width:60px">Gap</th><th>Answer</th></tr></thead><tbody></tbody></table></div>
+  <h3>Quiz 2 — Matching</h3>
+  <div class="tbl-wrap"><table id="a2"><thead><tr><th style="width:32%">Word</th><th>Meaning</th></tr></thead><tbody></tbody></table></div>
+  <h3>Quiz 3 — True or False</h3>
+  <div class="tbl-wrap"><table id="a3"><thead><tr><th>Statement</th><th style="width:70px">Answer</th><th style="width:45%">Why</th></tr></thead><tbody></tbody></table></div>
+  <h3>Quiz 4 — Say it in English</h3>
+  <div class="tbl-wrap"><table id="a4"><thead><tr><th style="width:32%">Prompt</th><th>English answer</th></tr></thead><tbody></tbody></table></div>
+  <h2>Self-Assessment Tracker</h2>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Traffic Light Self-Assessment:</strong> For each set, click one circle.
+    🔴 = I cannot say it. 🟡 = I know it when I read it, but I cannot write it. 🟢 = I can use it in a sentence
+    without looking. Only 🟢 counts as learned. Re-test your 🔴 sets first, three days later. Your choices are saved.
+  </div>
+  <div class="tbl-wrap"><table id="track"><thead><tr>
+    <th style="width:40%">Set</th><th>Week 1</th><th>Week 2</th><th>Before the test</th>
+  </tr></thead><tbody></tbody></table></div>
+</section>
+
+<footer>
+  Wycombe Abbey School Changzhou · EDT Faculty · Verified against the Edexcel 1DT0 specification and textbook pp. 37–54.
+</footer>
+</main>
+
+<script>
+const PACK = {"topic": "1.8–1.12 Categorisation of Materials", "sections": [{"id": "A", "cls": "secA", "title": "Metals", "spec": "1.8", "sets": [{"n": "Set A1", "t": "Ferrous metals and alloys", "w": [["Ferrous metal", "黑色金属", "Чёрный металл", 1, "A metal that contains iron (ferrite), so most have magnetic properties.", "Vulnerable to rust when exposed to moisture, except for stainless steel and wrought iron.", "💡 <em>Ferrum</em> is Latin for iron. Contains iron → magnetic → rusts."], ["Non-ferrous metal", "有色金属", "Цветной металл", 1, "A metal that does not contain iron, so it has higher resistance to rust and corrosion.", "Not magnetic, and tends to be more malleable than ferrous metals.", "💡 Three differences at once: no rust, no magnetism, more malleable."], ["Alloy", "合金", "Сплав", 1, "A mixture of two or more metals or elements, which has improved properties and characteristics. <em>(Textbook key term)</em>", "Stainless steel and brass are both alloys.", "💡 “Improved properties” is the point — you alloy a metal to fix a weakness."], ["Mild steel", "低碳钢", "Низкоуглеродистая сталь", 1, "Iron plus 0.1–0.3% carbon. Tough, ductile, malleable, magnetic, high tensile strength, easily joined, poor corrosion resistance.", "Melts at 1400°C. Screws, nails, bolts, girders, car body panels.", "💡 Quote the carbon percentage. It is the one number that separates the steels."], ["Stainless steel", "不锈钢", "Нержавеющая сталь", 1, "An alloy of carbon steel with 10.5–18% chromium, 8% nickel and 8% manganese. Corrosion resistant, hard, tough, resists wear, difficult to cut.", "Melts at 1400°C. Kitchenware, sinks, cutlery, medical equipment.", "💡 The chromium is what stops the rust. Say so and the mark is yours."], ["Cast iron", "铸铁", "Чугун", 2, "Iron plus 2–6% carbon. Hard skin, brittle, soft core, good in compression, self-lubricating, magnetic.", "Melts at 1200°C. Machine parts, vices, brake discs, manhole covers.", "💡 Hard skin, soft core — an unusual combination worth remembering."]]}, {"n": "Set A2", "t": "Non-ferrous metals and behaviour", "w": [["Aluminium", "铝", "Алюминий", 1, "A greyish-white pure metal: corrosion resistant, malleable, ductile, easily machined, a good heat and electrical conductor, with an excellent strength-to-weight ratio.", "Melts at 660°C. Aircraft, foil, window frames, engine parts, drinks cans.", "💡 Lowest melting point of the metals in the table, and the best strength-to-weight ratio."], ["Copper", "铜", "Медь", 1, "A reddy-brown pure metal: corrosion resistant, malleable, ductile, tough, a good heat and electrical conductor, good hot or cold working.", "Melts at 1100°C. Electrical wire, gas and water pipes, printed circuits, roofing.", "💡 Checkpoint S1 asks why copper suits a building roof. Corrosion resistance and malleability."], ["Brass", "黄铜", "Латунь", 2, "A yellow alloy of 65% copper and 35% zinc: corrosion resistant, easily machined, casts well, harder than copper, polishes well.", "Melts at 900–940°C. Plumbing and door fittings, locks, musical instruments.", "💡 Harder than the copper it is made from — the clearest example of why we alloy."], ["Elastic deformation", "弹性变形", "Упругая деформация", 2, "A temporary change of shape — the metal springs back.", "A large force will deform metal; if the change is temporary it is elastic deformation.", "💡 Elastic springs back. Plastic stays put. The same pair as in 1.13."], ["Plastic deformation", "塑性变形", "Пластическая деформация", 2, "A permanent change of shape — the metal stays in the new shape.", "Malleable materials such as copper can be formed into shape by hammering.", "💡 This is what makes forging and pressing possible."], ["Mohs scale", "莫氏硬度", "Шкала Мооса", 3, "A scale that measures hardness.", "Diamond is the hardest naturally occurring material at 10. Talc is 1, aluminium 2–2.9, steels 5–8.5.", "💡 Quoting “steels are 5–8.5 on the Mohs scale” is exactly the technical detail that lifts a grade."]]}]}, {"id": "B", "cls": "secB", "title": "Papers and boards", "spec": "1.9", "sets": [{"n": "Set B1", "t": "What paper and board are", "w": [["Paper", "纸", "Бумага", 1, "A thin, flat material made from natural fibres, weighing less than 220 gsm. <em>(Textbook key term)</em>", "Fine cellulose fibres, usually from wood but also hemp, flax, cotton or bamboo, pressed together with water and dried.", "💡 The 220 gsm line is what separates paper from board. Learn the number."], ["Board", "卡纸 / 纸板", "Картон", 1, "Thick paper, or layers of paper, more than 220 gsm. <em>(Textbook key term)</em>", "Thickness is measured in microns rather than weight.", "💡 Paper is weighed in gsm; board is measured in microns. Two different measures."], ["GSM (grams per square metre)", "克重", "Плотность (г/м²)", 1, "The number of grams a 1 m × 1 m sheet weighs.", "Copier paper is often 80 gsm; writing paper is typically 120 gsm.", "💡 Thicker paper suggests higher quality. Quote a real gsm figure if you can."], ["Micron", "微米", "Микрон", 2, "One thousandth of a millimetre, used to measure board thickness.", "A two-ply board is 200 microns thick.", "💡 µm. Used for board only — never for paper."], ["Cellulose fibre", "纤维素纤维", "Целлюлозное волокно", 2, "The fine plant fibre that paper is made from.", "Chemicals such as brightening bleaches are added to the pulp to achieve the required texture and finish.", "💡 Cellulose also appears in 1.11 — it is what makes cotton strong and absorbent."], ["Corrugated board", "瓦楞纸板", "Гофрокартон", 2, "Two or more layers of fluted paper sandwiched between two paper liners.", "Protective packaging — boxes for electrical products and CD sleeves.", "💡 Impact resistant, inexpensive and recyclable — but the brown finish does not convey quality."]]}, {"n": "Set B2", "t": "Types and working properties", "w": [["Folding boxboard", "折叠纸板", "Складной картон", 2, "Stiff layers: a printable bleached virgin pulp top surface, unbleached yellowish centre layers, and a bleached inside layer.", "Cereal boxes, food and health care packaging, cartons.", "💡 Excellent for scoring and bending without splitting — that is why it folds into boxes."], ["Solid white board", "白卡纸", "Цельный белый картон", 2, "A strong, rigid board made from pure bleached wood pulp, with an excellent printing surface.", "Book covers, food, cosmetics and medicine packaging.", "💡 Stronger than folding boxboard, but expensive. Cost versus strength again."], ["Cartridge paper", "绘图纸", "Чертёжная бумага", 2, "Creamy, thick, heavyweight paper at 120–150 gsm.", "General drawing and printing; can be used with watercolour paints without buckling.", "💡 The paper you use for your NEA design sheets."], ["Tracing paper", "描图纸", "Калька", 2, "Thin, smooth and translucent paper at 60–90 gsm, made by beating to remove air.", "Art, making copies, envelope windows, overlays on working drawings.", "💡 Strong and translucent, but expensive with limited ink absorption and longer drying time."], ["Printability", "可印刷性", "Пригодность к печати", 2, "The ability to accept a printed image onto a surface — its porosity.", "Affected by surface properties such as smoothness and finish, and structural properties such as bulk or thickness.", "💡 Printability is not the same as print quality. That distinction is examinable."], ["Biodegradability", "可生物降解性", "Биоразлагаемость", 2, "The ability to be broken down by bacteria or other biological means.", "Most uncoated paper products are biodegradable because they are made from wood pulp.", "💡 Compostable is stricter: it means the material biodegrades in less than 12 weeks."]]}]}, {"id": "C", "cls": "secC", "title": "Polymers", "spec": "1.10", "sets": [{"n": "Set C1", "t": "The two families", "w": [["Synthetic polymer", "合成聚合物", "Синтетический полимер", 1, "A synthetic material made mostly from oil, normally referred to as plastic. <em>(Textbook key term)</em>", "Crude oil is refined and mixed with other chemicals; coal and gas can also be used.", "💡 Links straight back to 1.3 — oil is a finite resource."], ["Thermoforming polymer", "热塑性聚合物", "Термопластичный полимер", 1, "A material that can be reshaped by the application of heat. It can be recycled and made into other products. <em>(Textbook key term)</em>", "Acrylic, high-impact polystyrene, Biopol®.", "💡 <em>Thermo-forming</em> = can be formed by heat, again and again."], ["Thermosetting polymer", "热固性聚合物", "Термореактивный полимер", 1, "A material that cannot be reshaped by reheating, and cannot be recycled. <em>(Textbook key term)</em>", "Polyester resin and urea formaldehyde. Used where products meet heat, chemicals or solvents.", "💡 <em>Thermo-setting</em> = heat sets it, once and for all."], ["Cross-linking", "交联", "Поперечные связи", 1, "Bonds that form between molecule chains in a thermosetting polymer once heated and cooled, preventing further forming and recycling.", "Figure 1.10.1 contrasts the tangled chains of a thermoforming polymer with the cross-linked chains of a thermosetting one.", "💡 This is the 2-mark answer to “explain the difference in structure”. Draw it if you can."], ["Acrylic (PMMA)", "亚克力", "Акрил", 2, "Tough, easily finished, easily cleaned, food safe — but can be easily scratched. Supplied as sheets, rods and tubes.", "Shop signs, rear car lights, baths, fish tanks, menu holders.", "💡 Common in school because it cuts and finishes to a high standard and does not need painting."], ["High-impact polystyrene (HIPS)", "高抗冲聚苯乙烯", "Ударопрочный полистирол", 1, "A thermoplastic commonly used for vacuum forming. <em>(Textbook key term)</em> Lightweight, high stiffness, impact resistant, easily scratched.", "Toys, television parts and refrigerator linings.", "💡 Impact resistant is why it is used for toys — that is the 2-mark question on p.45."]]}, {"n": "Set C2", "t": "Specific polymers", "w": [["Biopol®", "生物聚酯", "Биопол", 3, "A lightweight thermoforming polymer and good electrical insulator that degrades over time in contact with soil.", "Disposable cups, razors, cutlery, packaging, surgical stitches and pins.", "💡 Can be disposed of at landfill safely — but expensive and has low impact resistance."], ["Polyester resin", "聚酯树脂", "Полиэфирная смола", 2, "A thick liquid thermosetting polymer for casting and layup, usually used with a catalyst to harden it. Rigid and brittle unless laminated.", "Boat hulls and sports car bodies; normally formed with glass fibre.", "💡 Polyester resin + glass fibre = glass reinforced plastic. Links to 1.4 composites."], ["Urea formaldehyde", "脲醛树脂", "Карбамидоформальдегид", 2, "A rigid, hard, brittle, heat-resistant thermosetting polymer with excellent electrical insulation. Supplied as powder, granules or preforms.", "Electrical fittings — plugs, sockets and switches. Also an adhesive in man-made boards.", "💡 Electrical fittings get hot, which is exactly why a thermoset is used."], ["Catalyst", "固化剂", "Катализатор", 3, "A substance added to harden a resin.", "Polyester resin is usually used with a catalyst.", "💡 The catalyst starts the setting reaction — after that there is no going back."], ["Vacuum forming", "真空成型", "Вакуумная формовка", 2, "A process that heats a polymer sheet and pulls it over a mould using suction.", "HIPS is commonly used for vacuum forming.", "💡 Only works with thermoforming polymers, because the sheet must soften with heat."]]}]}, {"id": "D", "cls": "secA", "title": "Fibres and textiles", "spec": "1.11", "sets": [{"n": "Set D1", "t": "Fibres", "w": [["Fibre", "纤维", "Волокно", 1, "Thread-like elements that can be formed into yarns and fabrics. <em>(Textbook key term)</em>", "Fine, hair-like structures made into fabrics by weaving, knitting or felting.", "💡 Fibre → yarn → fabric. Three stages, in that order."], ["Fabric", "织物", "Ткань", 1, "A length of flexible material constructed from fibres. <em>(Textbook key term)</em>", "'Textiles' refers to all flexible fabrics created from fibres.", "💡 Fibres are the raw material; fabric is the finished sheet."], ["Natural fibre", "天然纤维", "Натуральное волокно", 1, "A fibre from a plant or animal source.", "Plant: cotton, flax, hemp, sisal, jute, coconut. Animal: silk, wool, mohair.", "💡 Name the source as well as the fibre — plant or animal."], ["Synthetic fibre", "合成纤维", "Синтетическое волокно", 1, "An artificial fibre usually made using coal, oil and other petrol-based chemicals.", "Polyester, acrylic, polyamide (nylon), elastane (Lycra) and Kevlar®.", "💡 Polyester is strong wet or dry and dries quickly — but does not breathe."], ["Staple", "纤维长度", "Штапель", 2, "The length of a fibre. <em>(Textbook key term)</em>", "Wool produces a short fibre or staple with a crimp or kink that traps air, creating warmth.", "💡 Short staple means warmer and fluffier; long staple means smoother and stronger."], ["Monomer", "单体", "Мономер", 3, "A molecule that can be bonded to similar molecules to form long chains. <em>(Textbook key term)</em>", "Simple chemical molecules are joined to form polymers by polymerisation; the chains are then spun into a yarn.", "💡 Monomer → polymer. Same idea as in 1.10, applied to fibres."]]}, {"n": "Set D2", "t": "Woven textiles", "w": [["Woven textile", "机织物", "Тканое полотно", 1, "A fabric made on a loom by interlacing threads.", "Weaving turns yarns into a fabric on a loom.", "💡 Woven, non-woven and knitted are the three constructions. Learn all three."], ["Warp", "经纱", "Основа", 1, "The vertical threads held under tension on a loom.", "The loom holds an arrangement of warp threads.", "💡 Warp goes up and down — it is the one held taut."], ["Weft", "纬纱", "Уток", 1, "The horizontal threads that pass across the warp.", "In denim, the warp is blue and the weft is white.", "💡 Weft goes left to right. The denim colour fact makes it stick."], ["Selvedge", "布边", "Кромка", 2, "The non-fraying edge formed where the weft threads loop back.", "The edges of a woven fabric.", "💡 Self-edge — the fabric finishes its own edge."], ["Plain weave", "平纹", "Полотняное переплетение", 2, "A simple weave where warp and weft pass over and under each other, forming a criss-cross pattern that looks the same on both sides.", "Calico (muslin), which is naturally grey. Shirts, bags, bedding, textile crafts.", "💡 Cheap to make and a good background for printing — but firm and of varied quality."], ["Twill weave", "斜纹", "Саржевое переплетение", 2, "The weft yarn goes over two or more warp threads, stepping over one warp thread on the next row to make a diagonal pattern.", "Denim. Jeans, jackets, curtains, blankets, soft furnishings.", "💡 Diagonal lines on your jeans — that is twill. Hardwearing but frays."]]}, {"n": "Set D3", "t": "Non-woven and knitted", "w": [["Non-woven textile", "非织造布", "Нетканый материал", 1, "A fabric made by layering fibres at different angles to form a web, joined by either felting or bonding.", "Felted wool fabric; bonded fibres and webs.", "💡 No loom involved. Two methods: felting and bonding."], ["Felting", "毡合", "Валяние", 2, "Joining scaly fibres of wool or hair by rubbing them together when wet, then applying heat and pressure.", "Pool table surfaces, hats, bags, coats, slippers, appliqué quilts.", "💡 Checkpoint S2 asks exactly how felt is made. Wet, rub, heat, press."], ["Bonding", "粘合", "Склеивание", 2, "Joining fibres with heat, solvents or adhesives.", "Fusible interfacing, wet wipes, disposable overalls.", "💡 Cheap to produce, does not fray — but not as strong as woven or knitted fabrics."], ["Knitted textile", "针织物", "Трикотаж", 1, "A fabric constructed from interlocking loops of yarn, either warp or weft knitted.", "Weft knitted: T-shirts, jumpers, socks. Warp knitted: swimwear, geotextiles, lace, nets, fleece.", "💡 Weft knit ladders easily; warp knit does not unravel. That is the key difference."], ["Resilience", "回弹性", "Упругость", 2, "Resistance to being deformed or compressed — fibres spring back vigorously when pressure is released.", "Loft, or compressional resiliency, is the ability to return to original thickness after being squashed.", "💡 Resilience is about bouncing back; elasticity is about stretch. Two different tests."]]}]}, {"id": "E", "cls": "secB", "title": "Timbers", "spec": "1.12", "sets": [{"n": "Set E1", "t": "The three categories", "w": [["Timber", "木材", "Древесина", 1, "Wood that has come from tree trunks and been dried and cut into planks.", "Used as a building material for thousands of years — trees grow naturally, the wood is easy to work with, and it is relatively strong and lightweight.", "💡 Three reasons timber is still used: renewable, workable, good strength for its weight."], ["Hardwood", "硬木", "Твёрдая древесина", 1, "Timber from a tree with broad leaves, whose seeds are enclosed in a fruit such as an acorn. <em>(Textbook key term)</em>", "Grows slowly, often more than 100 years before it is big enough for timber, so hardwoods are rare and expensive.", "💡 It describes the LEAVES, not the hardness. Balsa is a hardwood and is very soft indeed."], ["Softwood", "软木", "Мягкая древесина", 1, "Timber from a tree with needle-like leaves and seeds in a cone. <em>(Textbook key term)</em>", "Grows quickly, usable after about 30 years, so it can be grown commercially — which is why softwood is much cheaper.", "💡 Fast growth is the whole reason softwood costs less. Say that, not just “it is cheaper”."], ["Evergreen", "常绿树", "Вечнозелёный", 2, "A tree that keeps its leaves all year round. <em>(Textbook key term)</em>", "Most softwood trees are evergreen.", "💡 Evergreen and softwood usually go together, but they are not the same word."], ["Grain", "纹理", "Волокна древесины", 1, "Fibres running the length of a tree trunk, which give it its strength and make the distinctive patterns you see on timber. <em>(Textbook key term)</em>", "Oak has an attractive grain when well finished.", "💡 Grain gives strength AND appearance. Two marks in one word."], ["Manufactured board", "人造板", "Древесная плита", 1, "A board made from timber that has different properties from plain timber, available as large, thin sheets.", "Needed because natural timber is only available in fairly narrow planks, limited by the trunk's size.", "💡 The reason manufactured boards exist is the width of a tree. That is the answer examiners want."]]}, {"n": "Set E2", "t": "Named timbers", "w": [["Oak", "橡木", "Дуб", 2, "A strong, durable hardwood with an attractive grain when well finished.", "Used for houses and boats in the past; now high-end furniture, wine and whisky barrels.", "💡 Expensive, becoming rarer, harder to work — and it corrodes iron and steel."], ["Mahogany", "桃花心木", "Красное дерево", 2, "A hardwood with a very attractive finish that is quite easy to work.", "High-quality furniture, jewellery boxes, windows.", "💡 Environmental problems with sourcing from tropical forests, and its oils can cause skin rashes."], ["Beech", "山毛榉", "Бук", 2, "A tough, hard hardwood that does not crack or splinter easily.", "Toys, cooking implements, solid and laminated furniture.", "💡 Not very resistant to moisture, so not suitable for exterior use — the director's chair point from 1.13."], ["Pine", "松木", "Сосна", 2, "A very durable, easy-to-work softwood that is reasonably strong and lightweight.", "House construction, roof joists, floorboards, furniture, doors, interior woodwork.", "💡 Cheap because it grows quickly — but can warp, crack and splinter more than some woods."], ["Plywood", "胶合板", "Фанера", 1, "A manufactured board made by slicing a tree trunk into thin layers called veneers, glued with the grain lines running in alternate directions.", "Building and furniture panels that need some strength.", "💡 Flat, structurally strong, and resistant to warping, cracking and twisting."], ["MDF (medium density fibreboard)", "中密度纤维板", "МДФ", 1, "Wood dust and fibres mixed with glue and pressed into flat sheets under extreme heat and pressure.", "Cheap flat-pack furniture, wall panels, display cabinets, storage units.", "💡 Cheap and smooth for painting — but weak, needs coating, and the glue blunts tools quickly."]]}]}], "gaps": [["Metals that contain iron are called", "ferrous", "metals."], ["A mixture of two or more metals or elements is an", "alloy", "."], ["Mild steel is iron plus 0.1 to 0.3 per cent", "carbon", "."], ["Paper weighing more than 220 gsm is generally classified as", "board", "."], ["A polymer that can be reshaped by heat and then recycled is a", "thermoforming", "polymer."], ["Cross-linking of the molecule chains prevents the recycling of", "thermosetting", "polymers."], ["In weaving, the vertical threads held under tension are the", "warp", "threads."], ["The non-fraying edge of a woven fabric is called the", "selvedge", "."], ["Timber from a tree with broad leaves is a", "hardwood", "."], ["Thin veneers glued with the grain in alternate directions make", "plywood", "."]], "bank": ["board", "plywood", "warp", "thermoforming", "ferrous", "hardwood", "carbon", "selvedge", "alloy", "thermosetting"], "pairs": [["Cast iron", "Hard skin, brittle, soft core and self-lubricating"], ["Brass", "An alloy of 65% copper and 35% zinc"], ["Micron", "One thousandth of a millimetre"], ["HIPS", "A thermoplastic commonly used for vacuum forming"], ["Staple", "The length of a fibre"], ["Twill weave", "Produces a diagonal pattern, used for denim"], ["Evergreen", "A tree that keeps its leaves all year round"], ["MDF", "Wood dust and fibres pressed into sheets under heat and pressure"]], "tf": [["All non-ferrous metals are magnetic.", false, "FALSE. Non-ferrous metals do not contain iron, so they are <em>not</em> magnetic. The absence of iron also gives them higher resistance to rust and corrosion, and makes them more malleable."], ["Thermosetting polymers can be melted down and recycled.", false, "FALSE. Cross-linking of the molecule chains prevents further forming, so thermosetting polymers cannot be reshaped by reheating and cannot be recycled. Thermoforming polymers can be."], ["All ductile materials are malleable, but not all malleable materials are ductile.", true, "TRUE. The textbook states this directly. Ductility is being drawn out without breaking; malleability is being deformed in all directions without fracture."], ["Hardwood is always harder than softwood.", false, "FALSE. The names describe the <em>tree</em>, not the hardness. Hardwood comes from broad-leaved trees, softwood from needle-leaved trees with cones. Balsa is a hardwood and is extremely soft."], ["Softwood is usually cheaper than hardwood.", true, "TRUE. Softwood trees grow quickly and can be used for timber after about 30 years, so they are grown commercially. Hardwoods often take more than 100 years, which is why they are rare and expensive."], ["Paper and board are measured in the same way.", false, "FALSE. Paper is measured by weight in grams per square metre (gsm). Board thickness is measured in microns — one thousandth of a millimetre."]], "recall": [["黑色金属", "Чёрный металл", "ferrous metal"], ["合金", "Сплав", "alloy"], ["铝", "Алюминий", "aluminium"], ["卡纸 / 纸板", "Картон", "board"], ["热塑性聚合物", "Термопластичный полимер", "thermoforming polymer"], ["合成纤维", "Синтетическое волокно", "synthetic fibre"], ["经纱", "Основа", "warp"], ["硬木", "Твёрдая древесина", "hardwood"], ["纹理", "Волокна древесины", "grain"], ["胶合板", "Фанера", "plywood"]]};
+const TOPIC=PACK.topic, SECTIONS=PACK.sections, GAPS=PACK.gaps, BANK=PACK.bank,
+      PAIRS=PACK.pairs, TF=PACK.tf, RECALL=PACK.recall;
+
+const WORDS=[]; const SETS=[];
+SECTIONS.forEach(sec=>sec.sets.forEach(s=>{SETS.push(s.n+" — "+s.t);s.w.forEach(w=>WORDS.push(w));}));
+const TOTAL=WORDS.length;
+const TC={1:0,2:0,3:0}; WORDS.forEach(w=>TC[w[3]]++);
+
+document.getElementById("chipCount").textContent=TOTAL+" keywords · 3 tiers";
+document.getElementById("fAll").textContent="All "+TOTAL;
+document.getElementById("f1").textContent="⭐ Essential "+TC[1];
+document.getElementById("f2").textContent="Core "+TC[2];
+document.getElementById("f3").textContent="Stretch "+TC[3];
+document.getElementById("tierLead").innerHTML=
+ "Do not try to learn "+TOTAL+" words at once. Start with the "+TC[1]+" <strong>⭐ Essential</strong> words — you cannot "+
+ "answer a "+TOPIC+" exam question without them. Then build outwards. <strong>Stretch</strong> words are for Grade 7–9 answers. "+
+ "Press 🔊 on any card to hear the word said aloud.";
+
+const KEY="wascz_vocab_"+TOPIC.replace(/\W/g,"_");
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return{}}}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}}
+let ST=load(); ST.best=ST.best||{}; ST.learned=ST.learned||{}; ST.track=ST.track||{};
+
+function speak(t){
+  try{
+    if(!window.speechSynthesis)return;
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(t);
+    u.lang="en-GB"; u.rate=.85;
+    const vs=speechSynthesis.getVoices()||[];
+    const v=vs.find(x=>x.lang==="en-GB")||vs.find(x=>x.lang&&x.lang.indexOf("en")===0);
+    if(v)u.voice=v;
+    speechSynthesis.speak(u);
+  }catch(e){}
+}
+if(window.speechSynthesis)speechSynthesis.onvoiceschanged=function(){};
+
+const TIER={1:"⭐ Essential",2:"Core",3:"Stretch"};
+const esc=s=>s.replace(/"/g,"&quot;").replace(/'/g,"\\'");
+function renderCards(f){
+  let h="";
+  SECTIONS.forEach(sec=>{
+    const sets=sec.sets.map(s=>({...s,w:s.w.filter(x=>f==="all"||String(x[3])===f)})).filter(s=>s.w.length);
+    if(!sets.length)return;
+    h+=`<h2>Section ${sec.id} — ${sec.title} <span class="spec">${sec.spec}</span></h2>`;
+    sets.forEach(s=>{
+      h+=`<div class="set-hd ${sec.cls}"><span class="set-n">${s.n}</span><span class="set-t">${s.t}</span><span class="set-c">${s.w.length} words</span></div><div class="vocab-grid">`;
+      s.w.forEach(w=>{
+        h+=`<div class="vc t${w[3]}${ST.learned[w[0]]?" mastered":""}"><div class="vc-top">`+
+           `<div class="vc-word">${w[0]}</div>`+
+           `<button class="spk" title="Hear this word" onclick="speak('${esc(w[0])}')">🔊</button>`+
+           `<div class="vc-tag t${w[3]}">${TIER[w[3]]}</div></div><div class="vc-body">`+
+           `<div class="vc-def"><span class="def-lbl">Simple Definition</span>${w[4]}</div>`+
+           `<div class="vc-ex">${w[5]}</div><div class="vc-mem">${w[6]}</div>`+
+           `<button class="l1btn" onclick="this.nextElementSibling.classList.toggle('show')">中文 / Русский</button>`+
+           `<div class="vc-l1"><div class="l1row"><span class="l1flag">中文</span><span class="l1txt">${w[1]}</span></div>`+
+           `<div class="l1row"><span class="l1flag">РУС</span><span class="l1txt">${w[2]}</span></div></div>`+
+           `</div></div>`;
+      });
+      h+=`</div>`;
+    });
+  });
+  document.getElementById("cards").innerHTML=h;
+}
+renderCards("all");
+document.querySelectorAll("#vocab .fbtn").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#vocab .fbtn").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); renderCards(b.dataset.f);
+  const t=document.getElementById("l1all"); t.classList.remove("on"); t.textContent="Show 中文 / Русский";
+});
+document.getElementById("l1all").onclick=function(){
+  const on=!this.classList.contains("on");
+  this.classList.toggle("on",on);
+  this.textContent=on?"Hide 中文 / Русский":"Show 中文 / Русский";
+  document.querySelectorAll(".vc-l1").forEach(e=>e.classList.toggle("show",on));
+};
+document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("nav.tabs button").forEach(x=>x.classList.remove("on"));
+  document.querySelectorAll(".panel").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); document.getElementById(b.dataset.p).classList.add("on");
+  if(b.dataset.p==="ans")renderProgress();
+  window.scrollTo(0,0);
+});
+
+document.getElementById("bank1").innerHTML=BANK.map(b=>`<span>${b}</span>`).join("");
+document.getElementById("gaps").innerHTML=GAPS.map((g,i)=>
+  `<div class="q"><div class="qn">Gap ${i+1}</div>${g[0]?g[0]+" ":""}<input type="text" id="g${i}" autocomplete="off"> ${g[2]}</div>`).join("");
+function norm(s){return (s||"").toLowerCase().trim().replace(/\s+/g," ");}
+function markGap(){
+  let c=0;
+  GAPS.forEach((g,i)=>{const el=document.getElementById("g"+i),ok=norm(el.value)===norm(g[1]);
+    el.classList.toggle("ok",ok);el.classList.toggle("no",!ok);if(ok)c++;});
+  show("s1",c,GAPS.length,"q1");
+}
+function resetGap(){GAPS.forEach((g,i)=>{const e=document.getElementById("g"+i);e.value="";e.className="";});
+  document.getElementById("s1").className="score";}
+
+let mSel=null,mDone=0;
+function shuf(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function buildMatch(){
+  mSel=null;mDone=0;document.getElementById("s2").className="score";
+  const L=shuf(PAIRS.map((p,i)=>({t:p[0],i}))),R=shuf(PAIRS.map((p,i)=>({t:p[1],i})));
+  document.getElementById("mL").innerHTML=L.map(x=>`<button class="mitem" data-i="${x.i}" data-s="L">${x.t}</button>`).join("");
+  document.getElementById("mR").innerHTML=R.map(x=>`<button class="mitem" data-i="${x.i}" data-s="R">${x.t}</button>`).join("");
+  document.querySelectorAll("#mL .mitem,#mR .mitem").forEach(b=>b.onclick=()=>pick(b));
+}
+function pick(b){
+  if(b.classList.contains("done"))return;
+  if(!mSel){mSel=b;b.classList.add("sel");return;}
+  if(mSel===b){b.classList.remove("sel");mSel=null;return;}
+  if(mSel.dataset.s===b.dataset.s){mSel.classList.remove("sel");mSel=b;b.classList.add("sel");return;}
+  if(mSel.dataset.i===b.dataset.i){
+    mSel.className="mitem done";b.className="mitem done";mSel=null;mDone++;
+    if(mDone===PAIRS.length)show("s2",PAIRS.length,PAIRS.length,"q2");
+  }else{const a=mSel;a.classList.add("wrong");b.classList.add("wrong");
+    setTimeout(()=>{a.className="mitem";b.className="mitem";},650);mSel=null;}
+}
+buildMatch();
+
+document.getElementById("tfbox").innerHTML=TF.map((t,i)=>
+ `<div class="tf"><div class="tf-s"><strong>${i+1}.</strong> ${t[0]}</div>
+  <div class="tf-b"><button onclick="ansTF(${i},true,this)">True</button>
+  <button onclick="ansTF(${i},false,this)">False</button></div>
+  <div class="tf-fb" id="tf${i}">${t[2]}</div></div>`).join("");
+let tfDone=new Set(),tfRight=0;
+function ansTF(i,v,btn){
+  if(tfDone.has(i))return; tfDone.add(i);
+  const ok=(v===TF[i][1]); btn.classList.add(ok?"ok":"no"); if(ok)tfRight++;
+  document.getElementById("tf"+i).classList.add("show");
+  if(tfDone.size===TF.length)show("s3",tfRight,TF.length,"q3");
+}
+
+document.getElementById("recall").innerHTML=RECALL.map((r,i)=>
+ `<div class="rc"><div class="rc-p">${r[0]}</div><div class="rc-ru">${r[1]}</div>
+  <input type="text" id="r${i}" placeholder="Write the English word…" autocomplete="off"></div>`).join("");
+function markRecall(){
+  let c=0;
+  RECALL.forEach((r,i)=>{const el=document.getElementById("r"+i),ok=norm(el.value)===norm(r[2]);
+    el.classList.toggle("ok",ok);el.classList.toggle("no",!ok);if(ok)c++;});
+  show("s4",c,RECALL.length,"q4");
+}
+function resetRecall(){RECALL.forEach((r,i)=>{const e=document.getElementById("r"+i);e.value="";e.className="";});
+  document.getElementById("s4").className="score";}
+
+let drillPool="all", drillSet=[];
+function poolWords(){
+  if(drillPool==="todo"){const t=WORDS.filter(w=>!ST.learned[w[0]]);return t.length?t:WORDS;}
+  if(drillPool==="all")return WORDS;
+  return WORDS.filter(w=>String(w[3])===drillPool);
+}
+function buildDrill(){
+  const p=poolWords();
+  drillSet=shuf(p).slice(0,Math.min(10,p.length));
+  document.getElementById("drillbox").innerHTML=drillSet.map((w,i)=>
+   `<div class="dr"><div class="dr-top"><span class="dr-n">${i+1}</span><span class="dr-d">${w[4]}</span></div>
+    <div class="dr-e">${w[5]}</div>
+    <div class="dr-in"><input type="text" id="d${i}" placeholder="Which word is this?" autocomplete="off"></div></div>`).join("");
+  document.getElementById("s5").className="score";
+}
+function markDrill(){
+  let c=0;
+  drillSet.forEach((w,i)=>{
+    const el=document.getElementById("d"+i), ok=norm(el.value)===norm(w[0]);
+    el.classList.toggle("ok",ok); el.classList.toggle("no",!ok);
+    if(ok){c++; ST.learned[w[0]]=true;} else {el.value=el.value?el.value+"  →  "+w[0]:w[0];}
+  });
+  persist(); updateCov(); show("s5",c,drillSet.length,"drill");
+}
+function updateCov(){
+  const n=WORDS.filter(w=>ST.learned[w[0]]).length;
+  document.getElementById("covN").textContent=n+" / "+TOTAL;
+  document.getElementById("covBar").style.width=(n/TOTAL*100)+"%";
+  document.getElementById("covL").textContent= n===TOTAL
+    ? "every word recalled correctly — now go back and do it again from memory"
+    : "words recalled correctly so far";
+}
+document.querySelectorAll("#drill .fbtn").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#drill .fbtn").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); drillPool=b.dataset.d; buildDrill();
+});
+buildDrill(); updateCov();
+
+function show(id,c,t,key){
+  const el=document.getElementById(id), pc=c/t;
+  let msg;
+  if(pc===1) msg=`🏆 ${c} / ${t} — every one correct. Excellent work.`;
+  else if(pc>=.7) msg=`✅ ${c} / ${t} — well done. Check the ones in red and write them out once more.`;
+  else if(pc>=.4) msg=`👍 ${c} / ${t} — a good start. Go back to the Vocabulary tab, revise, then try again.`;
+  else msg=`💪 ${c} / ${t} — this is what practice is for. Revise the ⭐ Essential words first, then return.`;
+  el.textContent=msg; el.className="score show "+(pc>=.7?"good":"mid");
+  if(key&&key!=="drill"){
+    if(!ST.best[key]||c>ST.best[key]){ST.best[key]=c;persist();}
+    const b=document.getElementById("b"+key.slice(1));
+    if(b)b.textContent="Your best score so far: "+ST.best[key]+" / "+t;
+  }
+}
+["q1","q2","q3","q4"].forEach((k,i)=>{
+  const tot=[GAPS.length,PAIRS.length,TF.length,RECALL.length][i];
+  const b=document.getElementById("b"+(i+1));
+  if(b&&ST.best[k]!==undefined)b.textContent="Your best score so far: "+ST.best[k]+" / "+tot;
+});
+
+document.querySelector("#a1 tbody").innerHTML=GAPS.map((g,i)=>`<tr><td>${i+1}</td><td class="ans">${g[1]}</td></tr>`).join("");
+document.querySelector("#a2 tbody").innerHTML=PAIRS.map(p=>`<tr><td class="ans">${p[0]}</td><td>${p[1]}</td></tr>`).join("");
+document.querySelector("#a3 tbody").innerHTML=TF.map((t,i)=>`<tr><td>${i+1}. ${t[0]}</td><td class="ans">${t[1]?"True":"False"}</td><td>${t[2]}</td></tr>`).join("");
+document.querySelector("#a4 tbody").innerHTML=RECALL.map(r=>`<tr><td>${r[0]} / ${r[1]}</td><td class="ans">${r[2]}</td></tr>`).join("");
+
+const LIGHTS=["🔴","🟡","🟢"];
+document.querySelector("#track tbody").innerHTML=SETS.map((s,i)=>
+ `<tr><td><strong>${s}</strong></td>`+[0,1,2].map(col=>
+   `<td><div class="tl">`+LIGHTS.map((L,v)=>
+     `<button data-k="${i}_${col}" data-v="${v}" onclick="setLight(this)">${L}</button>`).join("")+
+   `</div></td>`).join("")+`</tr>`).join("");
+function setLight(b){
+  const k=b.dataset.k;
+  ST.track[k]=+b.dataset.v; persist();
+  document.querySelectorAll(`.tl button[data-k="${k}"]`).forEach(x=>
+    x.classList.toggle("on",+x.dataset.v===ST.track[k]));
+}
+Object.keys(ST.track).forEach(k=>{
+  document.querySelectorAll(`.tl button[data-k="${k}"]`).forEach(x=>
+    x.classList.toggle("on",+x.dataset.v===ST.track[k]));
+});
+
+function progressText(){
+  const n=WORDS.filter(w=>ST.learned[w[0]]).length;
+  const tots={q1:GAPS.length,q2:PAIRS.length,q3:TF.length,q4:RECALL.length};
+  const names={q1:"Gap fill",q2:"Matching",q3:"True/False",q4:"Say it in English"};
+  let s=TOPIC+" vocabulary — my progress\nWords recalled correctly: "+n+" / "+TOTAL+"\n";
+  ["q1","q2","q3","q4"].forEach(k=>{
+    s+=names[k]+": "+(ST.best[k]!==undefined?ST.best[k]+" / "+tots[k]:"not attempted")+"\n";});
+  const green=Object.keys(ST.track).filter(k=>ST.track[k]===2).length;
+  s+="Sets rated green: "+green+" / "+(SETS.length*3);
+  return s;
+}
+function renderProgress(){
+  const n=WORDS.filter(w=>ST.learned[w[0]]).length;
+  document.getElementById("prog").innerHTML=
+    `<div style="font-family:var(--mono);font-size:30px;color:var(--accent);line-height:1.1">${n} / ${TOTAL}</div>`+
+    `<p class="lead" style="margin:6px 0 14px">words you have recalled correctly in the Word Drill</p>`+
+    `<div style="white-space:pre-wrap;font-family:var(--mono);font-size:13px;background:#f7fafc;border:1px solid var(--line);border-radius:9px;padding:13px">${progressText()}</div>`;
+}
+function copyProgress(){
+  const t=progressText();
+  try{navigator.clipboard.writeText(t);alert("Progress copied. Paste it into Teams.");}
+  catch(e){prompt("Copy this and paste it into Teams:",t);}
+}
+function wipe(){
+  if(!confirm("This clears your saved scores, your learned words and your tracker. Continue?"))return;
+  ST={best:{},learned:{},track:{}}; persist(); location.reload();
+}
+renderProgress();
+</script>
+</body>
+</html>

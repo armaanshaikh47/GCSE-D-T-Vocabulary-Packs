@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1.5 Mechanical Devices — Vocabulary Pack | GCSE D&T</title>
+<style>
+/* WASCZ EDT — GCSE D&T VOCABULARY PACK · HOUSE TEMPLATE v2
+   No external requests. Works offline and behind the GFW. */
+:root{
+  --navy:#0d1b2a; --amber:#d97706; --green:#166534; --red:#c0392b;
+  --teal:#0e7490; --purple:#5b21b6; --bg:#f0f4f8;
+  --accent:#b45309; --accentLt:#fef3c7;
+  --secA:#b45309; --secB:#0e7490; --secC:#5b21b6;
+  --line:#d9e2ec; --ink:#14202e; --muted:#5b6b7c;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  --serif:Georgia,"Times New Roman","Songti SC","SimSun",serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.6;writing-mode:horizontal-tb;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px 70px;}
+header{background:var(--navy);color:#fff;padding:26px 0 0;}
+.hd{max-width:1180px;margin:0 auto;padding:0 18px;}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accentLt);margin:0 0 6px;}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4.4vw,40px);line-height:1.14;margin:0 0 8px;}
+.sub{color:#b9c7d6;font-size:15px;margin:0 0 18px;max-width:800px;}
+.hmeta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
+.chip{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);color:#e8f0f7;
+  font-family:var(--mono);font-size:11.5px;padding:5px 10px;border-radius:20px;}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;}
+nav.tabs button{background:rgba(255,255,255,.07);color:#cbd8e4;border:0;border-radius:10px 10px 0 0;
+  font-family:var(--sans);font-size:14.5px;font-weight:600;padding:13px 18px;cursor:pointer;white-space:nowrap;min-height:46px;}
+nav.tabs button:hover{background:rgba(255,255,255,.14);color:#fff;}
+nav.tabs button.on{background:var(--bg);color:var(--navy);}
+main{padding-top:26px;}
+.panel{display:none;} .panel.on{display:block;}
+h2{font-family:var(--serif);font-size:25px;font-weight:700;margin:34px 0 6px;color:var(--navy);}
+h2:first-child{margin-top:0;}
+h3{font-size:17px;font-weight:600;margin:26px 0 10px;color:var(--navy);}
+p.lead{color:var(--muted);margin:0 0 18px;max-width:840px;}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:18px;}
+.esl-tip{background:#fff8e6;border-left:5px solid var(--amber);border-radius:0 10px 10px 0;padding:14px 16px;margin:16px 0;font-size:14.5px;}
+.esl-tip strong{color:#92400e;}
+.note{background:var(--accentLt);border-left:5px solid var(--accent);border-radius:0 10px 10px 0;padding:14px 16px;margin:16px 0;font-size:14.5px;}
+.spec{font-family:var(--mono);font-size:11.5px;background:var(--navy);color:#fff;padding:3px 8px;border-radius:5px;display:inline-block;}
+.ctrls{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:22px;
+  display:flex;flex-wrap:wrap;gap:18px;align-items:center;}
+.ctrl-grp{display:flex;flex-wrap:wrap;gap:7px;align-items:center;}
+.ctrl-lbl{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+.fbtn{background:#eef3f8;border:1.5px solid transparent;color:var(--navy);border-radius:22px;
+  font-family:var(--sans);font-size:13.5px;font-weight:600;padding:9px 15px;cursor:pointer;min-height:40px;}
+.fbtn:hover{background:#e1eaf3;} .fbtn.on{background:var(--accent);color:#fff;}
+.tgl{background:#fff;border:1.5px solid var(--line);color:var(--navy);border-radius:22px;
+  font-family:var(--sans);font-size:13.5px;font-weight:600;padding:9px 15px;cursor:pointer;min-height:40px;}
+.tgl.on{background:var(--navy);color:#fff;border-color:var(--navy);}
+.set-hd{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:26px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--line);}
+.set-n{font-family:var(--mono);font-size:12px;color:#fff;background:var(--accent);padding:4px 10px;border-radius:6px;}
+.set-t{font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy);}
+.set-c{font-size:13px;color:var(--muted);margin-left:auto;font-family:var(--mono);}
+.secA .set-n{background:var(--secA);} .secB .set-n{background:var(--secB);} .secC .set-n{background:var(--secC);}
+.vocab-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px;align-items:start;}
+.vc{display:block;height:auto;overflow:visible;writing-mode:horizontal-tb;background:#fff;
+  border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;padding:15px 16px;}
+.vc.t1{border-left-color:var(--amber);background:#fffdf7;}
+.vc.t3{border-left-style:dashed;}
+.vc.mastered{box-shadow:inset 0 0 0 2px #b7e4c7;}
+.vc-top{display:flex;flex-direction:row;align-items:flex-start;gap:8px;writing-mode:horizontal-tb;margin-bottom:4px;}
+.vc-word{flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;writing-mode:horizontal-tb;
+  font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy);line-height:1.25;}
+.spk{flex-shrink:0;background:#eef3f8;border:0;border-radius:8px;cursor:pointer;font-size:15px;width:34px;height:34px;line-height:1;padding:0;}
+.spk:hover{background:var(--accentLt);}
+.vc-tag{flex-shrink:0;white-space:nowrap;writing-mode:horizontal-tb;font-family:var(--mono);font-size:10px;
+  letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px;background:#eef3f8;color:var(--muted);}
+.vc-tag.t1{background:#fef3c7;color:#92400e;}
+.vc-tag.t2{background:var(--accentLt);color:var(--navy);}
+.vc-tag.t3{background:#ede9fe;color:var(--purple);}
+.vc-body,.vc-def,.vc-ex,.vc-mem,.vc-l1{display:block;height:auto;overflow:visible;writing-mode:horizontal-tb;word-break:break-word;}
+.def-lbl{display:none;}
+.vc-def{font-size:14.5px;margin:6px 0 0;}
+.vc-ex{font-size:13.5px;color:var(--muted);margin-top:8px;padding-left:11px;border-left:2px solid var(--line);}
+.vc-mem{font-size:13px;margin-top:9px;background:#fff8e6;border-radius:7px;padding:8px 10px;color:#7c4a03;}
+.vc-l1{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);font-size:14px;display:none;}
+.vc-l1.show{display:block;}
+.l1row{display:flex;flex-direction:row;gap:8px;align-items:baseline;writing-mode:horizontal-tb;margin-top:3px;}
+.l1flag{flex-shrink:0;white-space:nowrap;font-family:var(--mono);font-size:10px;color:var(--muted);width:34px;}
+.l1txt{flex:1;min-width:0;writing-mode:horizontal-tb;word-break:break-word;color:var(--navy);}
+.l1btn{background:none;border:1px dashed var(--line);border-radius:16px;color:var(--muted);
+  font-family:var(--sans);font-size:12px;padding:5px 11px;cursor:pointer;margin-top:9px;min-height:34px;}
+.l1btn:hover{border-color:var(--accent);color:var(--accent);}
+.q{margin-bottom:15px;padding-bottom:15px;border-bottom:1px solid var(--line);}
+.q:last-of-type{border-bottom:0;}
+.qn{font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:4px;}
+.bank{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px;padding:14px;background:#eef3f8;border-radius:10px;}
+.bank span{background:#fff;border:1px solid var(--line);border-radius:18px;padding:6px 13px;font-size:14px;font-family:var(--mono);}
+input[type=text]{font-family:var(--sans);font-size:15px;padding:9px 11px;border:1.5px solid var(--line);
+  border-radius:8px;min-width:150px;min-height:42px;background:#fff;color:var(--ink);}
+input[type=text]:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent);}
+input.ok{border-color:var(--green);background:#eefbf3;}
+input.no{border-color:var(--red);background:#fdeeec;}
+.gap-line{font-size:15.5px;line-height:2.5;}
+.btn{background:var(--accent);color:#fff;border:0;border-radius:9px;font-family:var(--sans);
+  font-size:15px;font-weight:600;padding:12px 22px;cursor:pointer;min-height:46px;}
+.btn:hover{filter:brightness(1.12);}
+.btn.alt{background:#fff;color:var(--navy);border:1.5px solid var(--line);}
+.btnrow{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;}
+.score{margin-top:16px;padding:14px 16px;border-radius:10px;font-weight:600;display:none;}
+.score.show{display:block;}
+.score.good{background:#eefbf3;color:var(--green);border-left:5px solid var(--green);}
+.score.mid{background:#fff8e6;color:#92400e;border-left:5px solid var(--amber);}
+.best{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:8px;}
+.match{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.mcol{display:flex;flex-direction:column;gap:9px;}
+.mitem{background:#fff;border:1.5px solid var(--line);border-radius:9px;padding:12px 13px;cursor:pointer;
+  font-size:14.5px;text-align:left;min-height:46px;font-family:var(--sans);color:var(--ink);}
+.mitem:hover{border-color:var(--accent);}
+.mitem.sel{border-color:var(--navy);background:#eef3f8;}
+.mitem.done{border-color:var(--green);background:#eefbf3;color:var(--green);cursor:default;}
+.mitem.wrong{border-color:var(--red);background:#fdeeec;}
+.tf{background:#fff;border:1px solid var(--line);border-radius:11px;padding:15px;margin-bottom:12px;}
+.tf-s{font-size:15px;margin-bottom:11px;}
+.tf-b{display:flex;gap:9px;}
+.tf-b button{padding:9px 20px;border-radius:8px;border:1.5px solid var(--line);background:#fff;cursor:pointer;
+  font-family:var(--sans);font-size:14.5px;font-weight:600;min-height:44px;color:var(--ink);}
+.tf-b button:hover{border-color:var(--accent);}
+.tf-b button.ok{background:#eefbf3;border-color:var(--green);color:var(--green);}
+.tf-b button.no{background:#fdeeec;border-color:var(--red);color:var(--red);}
+.tf-fb{display:none;margin-top:11px;padding:11px 13px;border-radius:8px;font-size:14px;background:#eef3f8;}
+.tf-fb.show{display:block;}
+.rc{background:#fff;border:1px solid var(--line);border-radius:11px;padding:14px;margin-bottom:11px;}
+.rc-p{font-size:17px;color:var(--navy);margin-bottom:4px;}
+.rc-ru{font-size:13.5px;color:var(--muted);margin-bottom:10px;font-style:italic;}
+.dr{background:#fff;border:1px solid var(--line);border-radius:11px;padding:14px;margin-bottom:11px;}
+.dr-top{display:flex;flex-direction:row;gap:8px;align-items:flex-start;margin-bottom:8px;}
+.dr-n{flex-shrink:0;font-family:var(--mono);font-size:12px;color:var(--muted);width:26px;}
+.dr-d{flex:1;min-width:0;font-size:15px;}
+.dr-e{font-size:13px;color:var(--muted);margin:0 0 10px 26px;padding-left:10px;border-left:2px solid var(--line);}
+.dr-in{margin-left:26px;}
+.cov{background:var(--navy);color:#fff;border-radius:12px;padding:16px 18px;margin-bottom:18px;}
+.cov-n{font-family:var(--mono);font-size:30px;color:#8fd4ae;line-height:1.1;}
+.cov-l{font-size:14px;color:#b9c7d6;margin-top:4px;}
+.bar{height:9px;background:rgba(255,255,255,.16);border-radius:6px;margin-top:12px;overflow:hidden;}
+.bar i{display:block;height:100%;background:#8fd4ae;border-radius:6px;width:0;transition:width .4s;}
+.tbl-wrap{overflow-x:auto;margin:14px 0;}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:14px;background:#fff;}
+th{background:var(--navy);color:#fff;text-align:left;padding:11px 12px;font-weight:600;font-size:13px;}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+tr:nth-child(even) td{background:#fafcfe;}
+.ans{font-family:var(--mono);color:var(--green);font-weight:500;}
+.tl{display:flex;gap:5px;}
+.tl button{width:34px;height:34px;border-radius:50%;border:2px solid var(--line);background:#fff;
+  cursor:pointer;font-size:13px;line-height:1;padding:0;opacity:.35;}
+.tl button.on{opacity:1;border-color:var(--navy);}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:34px 18px 0;}
+@media(max-width:640px){.match{grid-template-columns:1fr;}.vocab-grid{grid-template-columns:1fr;}}
+@media print{
+  nav.tabs,.ctrls,.btnrow,.l1btn,.spk,header .hmeta{display:none!important;}
+  .panel{display:block!important;} body{background:#fff;}
+  .vc,.card,.tf{break-inside:avoid;}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="hd">
+    <p class="eyebrow">Edexcel GCSE (9–1) Design &amp; Technology · 1DT0 · Core content</p>
+    <h1>1.5 Mechanical Devices — Vocabulary Pack</h1>
+    <p class="sub">Movement, levers, linkages, cams and followers, pulleys and gears. Every word below comes from the specification or your textbook pages 25–32. Learn the <strong>English</strong> — that is the language of your exam.</p>
+    <div class="hmeta">
+      <span class="chip">Spec 1.5.1 – 1.5.4</span>
+      <span class="chip">Textbook pp. 25–32</span>
+      <span class="chip" id="chipCount"></span>
+      <span class="chip">Your progress is saved</span>
+    </div>
+    <nav class="tabs">
+      <button class="on" data-p="vocab">📖 Vocabulary</button>
+      <button data-p="quiz">✏️ Quizzes</button>
+      <button data-p="drill">🎯 Word Drill</button>
+      <button data-p="ans">✅ Answers &amp; Tracker</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<section class="panel on" id="vocab">
+  <h2>How this pack is tiered</h2>
+  <p class="lead" id="tierLead"></p>
+  <div class="ctrls">
+    <div class="ctrl-grp">
+      <span class="ctrl-lbl">Show</span>
+      <button class="fbtn on" data-f="all" id="fAll"></button>
+      <button class="fbtn" data-f="1" id="f1"></button>
+      <button class="fbtn" data-f="2" id="f2"></button>
+      <button class="fbtn" data-f="3" id="f3"></button>
+    </div>
+    <div class="ctrl-grp">
+      <span class="ctrl-lbl">Translation</span>
+      <button class="tgl" id="l1all">Show 中文 / Русский</button>
+    </div>
+  </div>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Vocabulary Notebook:</strong> Translation is hidden on purpose. Read the English
+    definition first and try to picture it. Only press <em>中文 / Русский</em> if you are stuck. Then, in your notebook,
+    write the word, the English definition <em>in your own words</em>, and one original sentence about a real product.
+    Copying the definition does not build memory — rewriting it does.
+  </div>
+  <div id="cards"></div>
+</section>
+
+<section class="panel" id="quiz">
+  <h2>Retrieval Quizzes</h2>
+  <p class="lead">Do these <strong>without looking at the vocabulary tab</strong>. Getting it wrong first, then checking,
+    builds stronger memory than reading the answer. Your best score for each quiz is saved.</p>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Productive Failure:</strong> Guess before you check. A wrong guess that you then correct is
+    remembered about twice as well as an answer you simply read. Your score here is not a grade — it is a map of what to revise.
+  </div>
+  <div class="card">
+    <h3>Quiz 1 — Gap fill</h3>
+    <p class="lead">Type one word or phrase in each gap. Spelling must be close — this is exam spelling practice.</p>
+    <div class="bank" id="bank1"></div>
+    <div id="gaps" class="gap-line"></div>
+    <div class="btnrow">
+      <button class="btn" onclick="markGap()">Check my answers</button>
+      <button class="btn alt" onclick="resetGap()">Clear</button>
+    </div>
+    <div class="score" id="s1"></div><div class="best" id="b1"></div>
+  </div>
+  <div class="card">
+    <h3>Quiz 2 — Match the word to the meaning</h3>
+    <p class="lead">Click a word on the left, then its meaning on the right. Green = correct.</p>
+    <div class="match"><div class="mcol" id="mL"></div><div class="mcol" id="mR"></div></div>
+    <div class="btnrow"><button class="btn alt" onclick="buildMatch()">Shuffle &amp; restart</button></div>
+    <div class="score" id="s2"></div><div class="best" id="b2"></div>
+  </div>
+  <div class="card">
+    <h3>Quiz 3 — True or False? <span class="spec">Common exam mistakes</span></h3>
+    <p class="lead">Most of these are things students get wrong every year. Read the explanation after each one.</p>
+    <div id="tfbox"></div>
+    <div class="score" id="s3"></div><div class="best" id="b3"></div>
+  </div>
+  <div class="card">
+    <h3>Quiz 4 — Say it in English <span class="spec">L1 → English recall</span></h3>
+    <p class="lead">You know the concept in your own language. Now produce the English word the examiner needs to see.
+      This is the only place translation is used — as a <em>prompt</em>, never as an answer.</p>
+    <div id="recall"></div>
+    <div class="btnrow">
+      <button class="btn" onclick="markRecall()">Check my answers</button>
+      <button class="btn alt" onclick="resetRecall()">Clear</button>
+    </div>
+    <div class="score" id="s4"></div><div class="best" id="b4"></div>
+  </div>
+</section>
+
+<section class="panel" id="drill">
+  <h2>Word Drill</h2>
+  <p class="lead">Ten words at a time, chosen at random. Read the meaning, write the word. Every word in this pack
+    will come up eventually — the four quizzes above only reach some of them. A word counts as
+    <strong>learned</strong> once you have recalled it correctly here.</p>
+  <div class="cov">
+    <div class="cov-n" id="covN">0 / 0</div>
+    <div class="cov-l" id="covL">words recalled correctly so far</div>
+    <div class="bar"><i id="covBar"></i></div>
+  </div>
+  <div class="ctrls">
+    <div class="ctrl-grp">
+      <span class="ctrl-lbl">Drill from</span>
+      <button class="fbtn on" data-d="all">All</button>
+      <button class="fbtn" data-d="1">⭐ Essential</button>
+      <button class="fbtn" data-d="2">Core</button>
+      <button class="fbtn" data-d="3">Stretch</button>
+      <button class="fbtn" data-d="todo">Not yet learned</button>
+    </div>
+  </div>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Spacing:</strong> Ten words, then stop. Come back tomorrow rather than doing forty today.
+    The same word met on three different days is remembered far longer than the same word met three times in one hour.
+  </div>
+  <div id="drillbox"></div>
+  <div class="btnrow">
+    <button class="btn" onclick="markDrill()">Check my answers</button>
+    <button class="btn alt" onclick="buildDrill()">Next 10 words</button>
+  </div>
+  <div class="score" id="s5"></div>
+</section>
+
+<section class="panel" id="ans">
+  <h2>Your Progress</h2>
+  <div class="card" id="prog"></div>
+  <div class="btnrow">
+    <button class="btn alt" onclick="copyProgress()">Copy my progress</button>
+    <button class="btn alt" onclick="wipe()">Reset everything</button>
+  </div>
+  <p class="lead" style="margin-top:12px">“Copy my progress” puts a short summary on your clipboard. Paste it into
+    Teams when your teacher asks for it. Your progress is stored on this device only — it is not sent anywhere.</p>
+  <h2>Answer Key</h2>
+  <div class="note"><strong>Teacher note:</strong> print this tab only (File → Print) for peer- or self-marking.
+    Students should mark in a different colour pen and correct their own errors underneath.</div>
+  <h3>Quiz 1 — Gap fill</h3>
+  <div class="tbl-wrap"><table id="a1"><thead><tr><th style="width:60px">Gap</th><th>Answer</th></tr></thead><tbody></tbody></table></div>
+  <h3>Quiz 2 — Matching</h3>
+  <div class="tbl-wrap"><table id="a2"><thead><tr><th style="width:32%">Word</th><th>Meaning</th></tr></thead><tbody></tbody></table></div>
+  <h3>Quiz 3 — True or False</h3>
+  <div class="tbl-wrap"><table id="a3"><thead><tr><th>Statement</th><th style="width:70px">Answer</th><th style="width:45%">Why</th></tr></thead><tbody></tbody></table></div>
+  <h3>Quiz 4 — Say it in English</h3>
+  <div class="tbl-wrap"><table id="a4"><thead><tr><th style="width:32%">Prompt</th><th>English answer</th></tr></thead><tbody></tbody></table></div>
+  <h2>Self-Assessment Tracker</h2>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Traffic Light Self-Assessment:</strong> For each set, click one circle.
+    🔴 = I cannot say it. 🟡 = I know it when I read it, but I cannot write it. 🟢 = I can use it in a sentence
+    without looking. Only 🟢 counts as learned. Re-test your 🔴 sets first, three days later. Your choices are saved.
+  </div>
+  <div class="tbl-wrap"><table id="track"><thead><tr>
+    <th style="width:40%">Set</th><th>Week 1</th><th>Week 2</th><th>Before the test</th>
+  </tr></thead><tbody></tbody></table></div>
+</section>
+
+<footer>
+  Wycombe Abbey School Changzhou · EDT Faculty · Verified against the Edexcel 1DT0 specification and textbook pp. 25–32.
+</footer>
+</main>
+
+<script>
+const PACK = {"topic": "1.5 Mechanical Devices", "sections": [{"id": "A", "cls": "secA", "title": "Movement and levers", "spec": "1.5.1–1.5.2", "sets": [{"n": "Set A1", "t": "The four types of movement", "w": [["Mechanism", "机构", "Механизм", 1, "A device that changes one form of force into another.", "They range from simple mechanisms such as a door handle, scissors or a hole punch to complex car engines and manufacturing machinery.", "💡 The umbrella word for everything in this topic."], ["Linear motion", "直线运动", "Линейное движение", 1, "Moving in a straight line in one direction.", "A train travelling along a track.", "💡 One direction only. Compare with reciprocating, which goes back and forth."], ["Reciprocating motion", "往复运动", "Возвратно-поступательное движение", 1, "Moving backwards and forwards in a straight line.", "A sewing machine needle or a car piston.", "💡 <em>Re-ciprocate</em> = go back again. Linear goes one way; reciprocating returns."], ["Rotary motion", "旋转运动", "Вращательное движение", 1, "Motion around a central point.", "A fan blade or a bicycle wheel.", "💡 Rotary = rotate. The most common input motion in mechanisms."], ["Oscillating motion", "摆动", "Колебательное движение", 1, "Motion that swings backwards and forwards in an arc from a central point.", "A child on a swing, or a pendulum.", "💡 Oscillation swings in an <strong>arc</strong>; reciprocation moves in a <strong>straight line</strong>. That is the exam trap."], ["Force", "力", "Сила", 2, "A push or pull upon an object that, when unopposed, will change the object's motion. <em>(Textbook key term)</em>", "Mechanisms change one form of force into another.", "💡 Measured in newtons (N). Always give the unit."]]}, {"n": "Set A2", "t": "Levers and classes", "w": [["Lever", "杠杆", "Рычаг", 1, "A fixed rigid beam requiring a fulcrum, load and effort to provide mechanical advantage. <em>(Textbook key term)</em>", "Levers are simple mechanisms that create mechanical advantage, for example when moving large objects.", "💡 Three parts every time: effort, fulcrum, load."], ["Effort", "作用力 / 施力", "Усилие", 1, "The amount of force put in by the user — the input.", "In a wheelbarrow, the effort is the force you apply to the handles.", "💡 Effort is what YOU do. Load is what the lever moves."], ["Fulcrum", "支点", "Точка опоры", 1, "The point at which the lever pivots.", "Where the fulcrum sits decides the class of the lever.", "💡 Also called the pivot. Find the fulcrum first and the class follows."], ["Load", "负载", "Нагрузка", 1, "The force exerted by the thing being moved — the output.", "Lifting a 300 newton load in a wheelbarrow needs only a 50 newton effort.", "💡 Load is the resistance you are working against."], ["Class 1 lever", "第一类杠杆", "Рычаг первого рода", 2, "The fulcrum sits between the effort and the load. A large input movement produces a small output movement but with greater force.", "Pliers or a crowbar.", "💡 Order: Effort – Fulcrum – Load. Fulcrum in the middle."], ["Class 2 lever", "第二类杠杆", "Рычаг второго рода", 2, "The load sits between the fulcrum and the effort, with the fulcrum at one end. A large input movement produces a smaller output movement with greater force.", "A wheelbarrow or a nutcracker.", "💡 Load in the middle. This is the class the textbook uses for all its maths."]]}, {"n": "Set A3", "t": "Advantage, ratio and efficiency", "w": [["Class 3 lever", "第三类杠杆", "Рычаг третьего рода", 2, "The effort sits between the fulcrum and the load. Mechanical advantage is limited — the force applied by the user is greater than the output force.", "Tweezers or a spade.", "💡 Effort in the middle. The only class where you lose force but gain speed and control."], ["Mechanical advantage (MA)", "机械效益", "Механическое преимущество", 1, "How much a mechanism multiplies your force. MA = load ÷ effort.", "A 50 N effort lifting a 300 N load gives MA = 300/50 = 6.", "💡 The larger the number, the less effort needed. No units — it is a ratio."], ["Velocity ratio (VR)", "速度比", "Передаточное отношение", 1, "The ratio of the distance the effort moves compared with the distance the load moves, in a given time.", "Handles lifted 800 mm while the load rises 100 mm gives VR = 800/100 = 8.", "💡 VR = distance moved by effort ÷ distance moved by load. Learn to rearrange it three ways."], ["Efficiency", "效率", "КПД", 1, "The relationship between the input force and movement and the output force and movement. Efficiency = (MA ÷ VR) × 100%.", "MA 6 and VR 8 gives (6/8) × 100% = 75%.", "💡 No mechanism is 100% efficient, because of friction. Say so and you have an evaluation point."], ["Friction", "摩擦", "Трение", 2, "The resistance to movement between two surfaces trying to slide against each other. Friction generates heat. <em>(Textbook key term)</em>", "Friction is why no mechanism is 100 per cent efficient.", "💡 Roller followers reduce friction; flat followers increase it."], ["Newton (N)", "牛顿", "Ньютон", 3, "The unit of force.", "A 50 newton effort lifts a 300 newton load.", "💡 Always write the N. A number without a unit can lose the mark."]]}]}, {"id": "B", "cls": "secB", "title": "Linkages, cams and followers", "spec": "1.5.3", "sets": [{"n": "Set B1", "t": "Linkages", "w": [["Linkage", "连杆机构", "Рычажный механизм", 1, "Levers that allow forces and motion to be transmitted in a certain way, for example by reversing the movement or changing its direction.", "Linkages still have an input, a fulcrum and an output that can be adjusted for the desired result.", "💡 The same mechanical advantage rules apply as for ordinary levers."], ["Bell crank", "曲柄杠杆", "Угловой рычаг", 2, "A class 1 lever that transmits motion through 90 degrees, allowing an input force to be transmitted around a corner.", "Bicycle brakes and a sack barrow.", "💡 Through 90° — the same job bevel gears do for rotary motion."], ["Reverse motion linkage", "反向运动连杆", "Реверсивный рычажный механизм", 2, "A linkage based on a class 1 lever that reverses the motion of the input.", "Windscreen wipers or a gear lever in a car.", "💡 Input goes one way, output goes the other. Move the fixed pivot to change the output size."], ["Fixed pivot", "固定支点", "Неподвижный шарнир", 2, "A pivot that is anchored and does not move.", "In a bell crank the fixed pivot holds the corner while the moving pivots travel.", "💡 Fixed pivot = the fulcrum of the linkage."], ["Moving pivot", "活动支点", "Подвижный шарнир", 2, "A pivot that travels as the linkage operates.", "A reverse motion linkage has two moving pivots and one fixed pivot.", "💡 Label fixed and moving pivots differently in any linkage sketch."], ["Crank and slider", "曲柄滑块", "Кривошипно-ползунный механизм", 2, "A mechanism that converts the rotary motion of a crank into reciprocating motion in a slider, and can work in reverse.", "Crankshaft and pistons of a car; compressing air in a compressor; steam engines.", "💡 The slider moves twice the radius of the crank arm. That is the calculation."]]}, {"n": "Set B2", "t": "Cams and followers", "w": [["Cam", "凸轮", "Кулачок", 1, "A mechanism for converting rotary motion into reciprocating or oscillating motion. <em>(Textbook key term)</em>", "Cams of different shapes are attached to a rotating shaft to give different outputs.", "💡 Rotary in, up-and-down out. The shape of the cam decides the output."], ["Follower", "从动件", "Толкатель", 1, "A device that follows the movement of a cam profile to provide a desired output in a connecting part. <em>(Textbook key term)</em>", "All followers slide or roll on the external profile of the cam.", "💡 The cam leads, the follower follows. Name both parts in your answer."], ["Rise", "上升", "Подъём", 2, "The stage where the cam moves the follower up.", "One of the three stages of cam movement.", "💡 Rise, fall, dwell — learn all three as a set."], ["Fall", "下降", "Спуск", 2, "The stage where the cam moves the follower down.", "One of the three stages of cam movement.", "💡 The drop (snail) cam gives a slow rise and then a sudden fall."], ["Dwell", "停留", "Выстой", 1, "The stage where the follower remains stationary while the cam turns.", "A pear-shaped cam dwells for about half the cycle, then rises and falls.", "💡 Dwell means motionless. “The follower does not move” is the answer examiners want."], ["Cam profile", "凸轮轮廓", "Профиль кулачка", 2, "The shape of the outside edge of the cam, which decides how the follower moves.", "Common profiles are pear, eccentric/circular and drop (snail).", "💡 Different profile → different output. Say which profile and what it does."]]}, {"n": "Set B3 — Stretch", "t": "Choosing the right profile and follower", "w": [["Pear-shaped cam", "梨形凸轮", "Грушевидный кулачок", 3, "Motionless (dwells) for about half the cycle; during the second half it rises and falls.", "Opens and closes the valves in a car engine.", "💡 Half the cycle doing nothing is exactly what a valve needs."], ["Eccentric cam", "偏心凸轮", "Эксцентриковый кулачок", 3, "A circular cam offset from its shaft, giving a smooth continuous movement as the follower rises or falls.", "Used in a fuel pump or in steam engines.", "💡 Circular but off-centre. Smooth and continuous — no sudden movement."], ["Drop (snail) cam", "凸轮（蜗形）", "Спиральный кулачок", 3, "Gives a slow rise with a spiral cross-section and then a sudden fall.", "Used in hammers, punches or machines needing a sudden drop.", "💡 Slow build, sudden drop. Only works turning one way."], ["Roller follower", "滚子从动件", "Роликовый толкатель", 3, "A follower with a rolling wheel, used when higher speeds are required.", "Used in engines. Rolling motion reduces friction so it wears better.", "💡 Lower friction, but it has separate parts and contends with side forces."], ["Knife-edge follower", "尖顶从动件", "Остроконечный толкатель", 3, "A pointed follower used when accuracy is required, because it follows the cam profile closely.", "Used in an embroidery machine.", "💡 Most accurate, fastest to wear out. Accuracy versus durability."], ["Flat follower", "平底从动件", "Плоский толкатель", 3, "A flat-faced follower used when higher load-bearing capability is required.", "Used in a steam engine.", "💡 Larger surface area carries more load, but suffers increased friction."]]}]}, {"id": "C", "cls": "secC", "title": "Pulleys, gears and ratios", "spec": "1.5.4", "sets": [{"n": "Set C1", "t": "Pulleys and belts", "w": [["Pulley", "滑轮", "Шкив", 1, "A wheel with a shaped groove that a belt fits into, transmitting rotary motion from a driver shaft to a driven shaft.", "The drive mechanism in tools such as a pillar drill.", "💡 Motion is transferred by friction — which is also why a belt can slip."], ["Driver", "主动轮", "Ведущее колесо", 1, "The wheel or gear that provides the input motion.", "The driver pulley is turned by the motor.", "💡 Driver = drives. Driven = is driven. Getting these the wrong way round reverses every calculation."], ["Driven", "从动轮", "Ведомое колесо", 1, "The wheel or gear that receives the motion and provides the output.", "In a pulley system the driver and driven pulleys rotate in the same direction.", "💡 Pulleys: same direction. Two meshed gears: opposite directions."], ["Belt", "传动带", "Ремень", 2, "The loop that connects two pulleys and carries the motion between them.", "Motion is transferred by friction between the belt and the pulley groove.", "💡 No teeth, so it can slip — the main disadvantage against gears."], ["V-belt", "V 型带", "Клиновой ремень", 2, "A belt shaped with sloping sides to increase the gripping area and the force that can be transferred.", "It wedges into the pulley wheel, tightening the drive surfaces as it runs.", "💡 More grip → less slipping → higher efficiency."], ["Revolutions per minute (rpm)", "每分钟转数", "Обороты в минуту", 2, "The number of times a device rotates around a fixed axis in one minute.", "A driver gear rotating at 100 rpm with a gear ratio of 1:18 gives an output of 1800 rpm.", "💡 Output speed = input speed ÷ velocity ratio."]]}, {"n": "Set C2", "t": "Gears", "w": [["Gear", "齿轮", "Шестерня", 1, "A toothed wheel fixed to a shaft that meshes with other gears to change the speed or direction of rotation.", "Gears have an advantage over pulleys because the meshing prevents slippage, so greater forces can be applied.", "💡 Teeth mesh, so no slip. That is the gear-versus-pulley answer."], ["Mesh", "啮合", "Зацепление", 2, "When the teeth of two gears engage with each other.", "A simple gear train is two spur gears meshed on parallel shafts.", "💡 Meshing is what stops gears slipping."], ["Simple gear train", "简单齿轮系", "Простая зубчатая передача", 1, "Two spur gears meshed and fixed on parallel shafts. The driven gear turns in the opposite direction to the driver.", "A 32-tooth driver with a 16-tooth driven gear gives VR = 16/32 = 1:2.", "💡 VR = teeth on driven ÷ teeth on driver. Two gears always turn opposite ways."], ["Compound gear train", "复合齿轮系", "Составная зубчатая передача", 2, "A gear train with more than one gear on a shaft, combining several pairs for a higher velocity ratio.", "Total VR = VR of train 1 × VR of train 2, e.g. 1:2 × 1:4 = 1:8.", "💡 Multiply the ratios. Use it when a simple train cannot give enough speed change."], ["Idler gear", "惰轮", "Паразитная шестерня", 2, "A gear placed between the driver and driven gears so that they rotate in the same direction.", "It has no impact on the output speed; the velocity ratio is still based on the driver and driven gears.", "💡 Checkpoint S3. Its only job is direction — it never changes the ratio."], ["Torque", "扭矩", "Крутящий момент", 2, "A measure of a system's turning power. <em>(Textbook key term)</em>", "When a gear system makes the output 18 times faster, the torque is reduced.", "💡 Speed up, torque down. The trade-off is always there — say it and you earn the second mark."]]}, {"n": "Set C3 — Stretch", "t": "Specialist gears and calculations", "w": [["Spur gear", "正齿轮", "Цилиндрическая шестерня", 3, "The standard straight-toothed gear used in simple and compound gear trains.", "Figures 1.5.8 and 1.5.9 both use meshed spur gears.", "💡 The default gear. If the question does not say otherwise, it is a spur gear."], ["Bevel gear", "锥齿轮", "Коническая шестерня", 3, "A specialist gear that transmits rotary motion through 90 degrees.", "A hand drill. Figure 1.5.11 has a gear ratio of 1:3.", "💡 Does for rotary motion what a bell crank does for linear motion — turns the corner."], ["Mitre gear", "等径锥齿轮", "Коническая передача 1:1", 3, "Two same-sized bevel gears. They still turn through 90 degrees, but the output and input speeds are equal.", "A pair of equal bevel gears.", "💡 Mitre = same size, so VR is 1:1. Direction changes, speed does not."], ["Rack and pinion", "齿条与小齿轮", "Реечная передача", 2, "A gear wheel and a toothed rack that change rotary motion to linear motion, or the reverse.", "A pillar drill or a car steering system.", "💡 Rack movement = (teeth on pinion ÷ teeth per metre on rack) × 1 metre."], ["Teeth per metre (TPM)", "每米齿数", "Зубьев на метр", 3, "How many teeth a rack has along one metre of its length.", "A 60-tooth pinion on a rack with 200 TPM moves 60/200 = 0.3 m = 300 mm per revolution.", "💡 The rack's movement depends on the pinion teeth AND the rack's TPM."], ["Gear ratio", "齿轮比", "Передаточное число", 2, "Another name for velocity ratio when talking about gears.", "A gear ratio of 1:18 means the output turns 18 times for one turn of the input.", "💡 Same calculation, different word. Examiners use both."]]}]}], "gaps": [["Motion that swings backwards and forwards in an arc from a central point is called", "oscillation", "."], ["Every lever has three parts: the effort, the load and the", "fulcrum", "."], ["A wheelbarrow is a class", "2", "lever, because the load sits between the fulcrum and the effort."], ["Mechanical advantage is calculated by dividing the load by the", "effort", "."], ["No mechanism is 100 per cent efficient because of", "friction", ", which also generates heat."], ["A cam is fixed to a rotating", "shaft", ", and its profile pushes the follower up and down."], ["When the follower stays still while the cam turns, this stage is called the", "dwell", "."], ["A belt with sloping sides that increases grip and reduces slipping is called a", "V-belt", "."], ["Gears are better than pulleys for large forces because the meshing teeth prevent", "slippage", "."], ["A gear placed between the driver and driven gears to make them turn the same way is an", "idler", "gear."]], "bank": ["dwell", "shaft", "idler", "2", "oscillation", "slippage", "effort", "V-belt", "fulcrum", "friction"], "pairs": [["Fulcrum", "The point at which a lever pivots"], ["Velocity ratio", "Distance moved by the effort ÷ distance moved by the load"], ["Dwell", "The follower stays still while the cam turns"], ["Bell crank", "A class 1 lever that transmits motion through 90 degrees"], ["Idler gear", "Makes the driver and driven gears turn the same way"], ["Torque", "A measure of a system's turning power"], ["Rack and pinion", "Changes rotary motion into linear motion"], ["Mitre gear", "Two equal bevel gears — direction changes but speed does not"]], "tf": [["Linear motion and reciprocating motion are the same thing.", false, "FALSE. Linear motion travels in a straight line in <em>one direction</em>, like a train on a track. Reciprocating motion goes backwards and forwards in a straight line, like a piston. Both are straight — only reciprocating returns."], ["In a simple gear train of two meshed gears, both gears turn in the same direction.", false, "FALSE. Two meshed spur gears turn in <em>opposite</em> directions. Adding an idler gear between them makes the driver and driven gears turn the same way — that is the idler's only purpose."], ["An idler gear changes the velocity ratio of a gear train.", false, "FALSE. The idler changes direction only. The velocity ratio is still calculated from the driver and driven gears, and the idler has no impact on the output speed."], ["A cam converts rotary motion into reciprocating or oscillating motion.", true, "TRUE. The cam is fixed to a rotating shaft, and its profile pushes a follower up and down. Rotary in, reciprocating or oscillating out."], ["If a gear system increases output speed, the torque increases too.", false, "FALSE. Speed and torque trade off against each other. The textbook example makes the output 18 times faster, and states that the torque has been reduced. Saying so earns the second mark."], ["A class 3 lever gives a large mechanical advantage.", false, "FALSE. In a class 3 lever, such as tweezers, mechanical advantage is limited — the force applied by the user is <em>greater</em> than the output force. You gain control and speed, not force."]], "recall": [["摆动", "Колебательное движение", "oscillation"], ["支点", "Точка опоры", "fulcrum"], ["机械效益", "Механическое преимущество", "mechanical advantage"], ["摩擦", "Трение", "friction"], ["凸轮", "Кулачок", "cam"], ["从动件", "Толкатель", "follower"], ["滑轮", "Шкив", "pulley"], ["惰轮", "Паразитная шестерня", "idler gear"], ["扭矩", "Крутящий момент", "torque"], ["齿条与小齿轮", "Реечная передача", "rack and pinion"]]};
+const TOPIC=PACK.topic, SECTIONS=PACK.sections, GAPS=PACK.gaps, BANK=PACK.bank,
+      PAIRS=PACK.pairs, TF=PACK.tf, RECALL=PACK.recall;
+
+const WORDS=[]; const SETS=[];
+SECTIONS.forEach(sec=>sec.sets.forEach(s=>{SETS.push(s.n+" — "+s.t);s.w.forEach(w=>WORDS.push(w));}));
+const TOTAL=WORDS.length;
+const TC={1:0,2:0,3:0}; WORDS.forEach(w=>TC[w[3]]++);
+
+document.getElementById("chipCount").textContent=TOTAL+" keywords · 3 tiers";
+document.getElementById("fAll").textContent="All "+TOTAL;
+document.getElementById("f1").textContent="⭐ Essential "+TC[1];
+document.getElementById("f2").textContent="Core "+TC[2];
+document.getElementById("f3").textContent="Stretch "+TC[3];
+document.getElementById("tierLead").innerHTML=
+ "Do not try to learn "+TOTAL+" words at once. Start with the "+TC[1]+" <strong>⭐ Essential</strong> words — you cannot "+
+ "answer a "+TOPIC+" exam question without them. Then build outwards. <strong>Stretch</strong> words are for Grade 7–9 answers. "+
+ "Press 🔊 on any card to hear the word said aloud.";
+
+const KEY="wascz_vocab_"+TOPIC.replace(/\W/g,"_");
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return{}}}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}}
+let ST=load(); ST.best=ST.best||{}; ST.learned=ST.learned||{}; ST.track=ST.track||{};
+
+function speak(t){
+  try{
+    if(!window.speechSynthesis)return;
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(t);
+    u.lang="en-GB"; u.rate=.85;
+    const vs=speechSynthesis.getVoices()||[];
+    const v=vs.find(x=>x.lang==="en-GB")||vs.find(x=>x.lang&&x.lang.indexOf("en")===0);
+    if(v)u.voice=v;
+    speechSynthesis.speak(u);
+  }catch(e){}
+}
+if(window.speechSynthesis)speechSynthesis.onvoiceschanged=function(){};
+
+const TIER={1:"⭐ Essential",2:"Core",3:"Stretch"};
+const esc=s=>s.replace(/"/g,"&quot;").replace(/'/g,"\\'");
+function renderCards(f){
+  let h="";
+  SECTIONS.forEach(sec=>{
+    const sets=sec.sets.map(s=>({...s,w:s.w.filter(x=>f==="all"||String(x[3])===f)})).filter(s=>s.w.length);
+    if(!sets.length)return;
+    h+=`<h2>Section ${sec.id} — ${sec.title} <span class="spec">${sec.spec}</span></h2>`;
+    sets.forEach(s=>{
+      h+=`<div class="set-hd ${sec.cls}"><span class="set-n">${s.n}</span><span class="set-t">${s.t}</span><span class="set-c">${s.w.length} words</span></div><div class="vocab-grid">`;
+      s.w.forEach(w=>{
+        h+=`<div class="vc t${w[3]}${ST.learned[w[0]]?" mastered":""}"><div class="vc-top">`+
+           `<div class="vc-word">${w[0]}</div>`+
+           `<button class="spk" title="Hear this word" onclick="speak('${esc(w[0])}')">🔊</button>`+
+           `<div class="vc-tag t${w[3]}">${TIER[w[3]]}</div></div><div class="vc-body">`+
+           `<div class="vc-def"><span class="def-lbl">Simple Definition</span>${w[4]}</div>`+
+           `<div class="vc-ex">${w[5]}</div><div class="vc-mem">${w[6]}</div>`+
+           `<button class="l1btn" onclick="this.nextElementSibling.classList.toggle('show')">中文 / Русский</button>`+
+           `<div class="vc-l1"><div class="l1row"><span class="l1flag">中文</span><span class="l1txt">${w[1]}</span></div>`+
+           `<div class="l1row"><span class="l1flag">РУС</span><span class="l1txt">${w[2]}</span></div></div>`+
+           `</div></div>`;
+      });
+      h+=`</div>`;
+    });
+  });
+  document.getElementById("cards").innerHTML=h;
+}
+renderCards("all");
+document.querySelectorAll("#vocab .fbtn").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#vocab .fbtn").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); renderCards(b.dataset.f);
+  const t=document.getElementById("l1all"); t.classList.remove("on"); t.textContent="Show 中文 / Русский";
+});
+document.getElementById("l1all").onclick=function(){
+  const on=!this.classList.contains("on");
+  this.classList.toggle("on",on);
+  this.textContent=on?"Hide 中文 / Русский":"Show 中文 / Русский";
+  document.querySelectorAll(".vc-l1").forEach(e=>e.classList.toggle("show",on));
+};
+document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("nav.tabs button").forEach(x=>x.classList.remove("on"));
+  document.querySelectorAll(".panel").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); document.getElementById(b.dataset.p).classList.add("on");
+  if(b.dataset.p==="ans")renderProgress();
+  window.scrollTo(0,0);
+});
+
+document.getElementById("bank1").innerHTML=BANK.map(b=>`<span>${b}</span>`).join("");
+document.getElementById("gaps").innerHTML=GAPS.map((g,i)=>
+  `<div class="q"><div class="qn">Gap ${i+1}</div>${g[0]?g[0]+" ":""}<input type="text" id="g${i}" autocomplete="off"> ${g[2]}</div>`).join("");
+function norm(s){return (s||"").toLowerCase().trim().replace(/\s+/g," ");}
+function markGap(){
+  let c=0;
+  GAPS.forEach((g,i)=>{const el=document.getElementById("g"+i),ok=norm(el.value)===norm(g[1]);
+    el.classList.toggle("ok",ok);el.classList.toggle("no",!ok);if(ok)c++;});
+  show("s1",c,GAPS.length,"q1");
+}
+function resetGap(){GAPS.forEach((g,i)=>{const e=document.getElementById("g"+i);e.value="";e.className="";});
+  document.getElementById("s1").className="score";}
+
+let mSel=null,mDone=0;
+function shuf(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function buildMatch(){
+  mSel=null;mDone=0;document.getElementById("s2").className="score";
+  const L=shuf(PAIRS.map((p,i)=>({t:p[0],i}))),R=shuf(PAIRS.map((p,i)=>({t:p[1],i})));
+  document.getElementById("mL").innerHTML=L.map(x=>`<button class="mitem" data-i="${x.i}" data-s="L">${x.t}</button>`).join("");
+  document.getElementById("mR").innerHTML=R.map(x=>`<button class="mitem" data-i="${x.i}" data-s="R">${x.t}</button>`).join("");
+  document.querySelectorAll("#mL .mitem,#mR .mitem").forEach(b=>b.onclick=()=>pick(b));
+}
+function pick(b){
+  if(b.classList.contains("done"))return;
+  if(!mSel){mSel=b;b.classList.add("sel");return;}
+  if(mSel===b){b.classList.remove("sel");mSel=null;return;}
+  if(mSel.dataset.s===b.dataset.s){mSel.classList.remove("sel");mSel=b;b.classList.add("sel");return;}
+  if(mSel.dataset.i===b.dataset.i){
+    mSel.className="mitem done";b.className="mitem done";mSel=null;mDone++;
+    if(mDone===PAIRS.length)show("s2",PAIRS.length,PAIRS.length,"q2");
+  }else{const a=mSel;a.classList.add("wrong");b.classList.add("wrong");
+    setTimeout(()=>{a.className="mitem";b.className="mitem";},650);mSel=null;}
+}
+buildMatch();
+
+document.getElementById("tfbox").innerHTML=TF.map((t,i)=>
+ `<div class="tf"><div class="tf-s"><strong>${i+1}.</strong> ${t[0]}</div>
+  <div class="tf-b"><button onclick="ansTF(${i},true,this)">True</button>
+  <button onclick="ansTF(${i},false,this)">False</button></div>
+  <div class="tf-fb" id="tf${i}">${t[2]}</div></div>`).join("");
+let tfDone=new Set(),tfRight=0;
+function ansTF(i,v,btn){
+  if(tfDone.has(i))return; tfDone.add(i);
+  const ok=(v===TF[i][1]); btn.classList.add(ok?"ok":"no"); if(ok)tfRight++;
+  document.getElementById("tf"+i).classList.add("show");
+  if(tfDone.size===TF.length)show("s3",tfRight,TF.length,"q3");
+}
+
+document.getElementById("recall").innerHTML=RECALL.map((r,i)=>
+ `<div class="rc"><div class="rc-p">${r[0]}</div><div class="rc-ru">${r[1]}</div>
+  <input type="text" id="r${i}" placeholder="Write the English word…" autocomplete="off"></div>`).join("");
+function markRecall(){
+  let c=0;
+  RECALL.forEach((r,i)=>{const el=document.getElementById("r"+i),ok=norm(el.value)===norm(r[2]);
+    el.classList.toggle("ok",ok);el.classList.toggle("no",!ok);if(ok)c++;});
+  show("s4",c,RECALL.length,"q4");
+}
+function resetRecall(){RECALL.forEach((r,i)=>{const e=document.getElementById("r"+i);e.value="";e.className="";});
+  document.getElementById("s4").className="score";}
+
+let drillPool="all", drillSet=[];
+function poolWords(){
+  if(drillPool==="todo"){const t=WORDS.filter(w=>!ST.learned[w[0]]);return t.length?t:WORDS;}
+  if(drillPool==="all")return WORDS;
+  return WORDS.filter(w=>String(w[3])===drillPool);
+}
+function buildDrill(){
+  const p=poolWords();
+  drillSet=shuf(p).slice(0,Math.min(10,p.length));
+  document.getElementById("drillbox").innerHTML=drillSet.map((w,i)=>
+   `<div class="dr"><div class="dr-top"><span class="dr-n">${i+1}</span><span class="dr-d">${w[4]}</span></div>
+    <div class="dr-e">${w[5]}</div>
+    <div class="dr-in"><input type="text" id="d${i}" placeholder="Which word is this?" autocomplete="off"></div></div>`).join("");
+  document.getElementById("s5").className="score";
+}
+function markDrill(){
+  let c=0;
+  drillSet.forEach((w,i)=>{
+    const el=document.getElementById("d"+i), ok=norm(el.value)===norm(w[0]);
+    el.classList.toggle("ok",ok); el.classList.toggle("no",!ok);
+    if(ok){c++; ST.learned[w[0]]=true;} else {el.value=el.value?el.value+"  →  "+w[0]:w[0];}
+  });
+  persist(); updateCov(); show("s5",c,drillSet.length,"drill");
+}
+function updateCov(){
+  const n=WORDS.filter(w=>ST.learned[w[0]]).length;
+  document.getElementById("covN").textContent=n+" / "+TOTAL;
+  document.getElementById("covBar").style.width=(n/TOTAL*100)+"%";
+  document.getElementById("covL").textContent= n===TOTAL
+    ? "every word recalled correctly — now go back and do it again from memory"
+    : "words recalled correctly so far";
+}
+document.querySelectorAll("#drill .fbtn").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#drill .fbtn").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); drillPool=b.dataset.d; buildDrill();
+});
+buildDrill(); updateCov();
+
+function show(id,c,t,key){
+  const el=document.getElementById(id), pc=c/t;
+  let msg;
+  if(pc===1) msg=`🏆 ${c} / ${t} — every one correct. Excellent work.`;
+  else if(pc>=.7) msg=`✅ ${c} / ${t} — well done. Check the ones in red and write them out once more.`;
+  else if(pc>=.4) msg=`👍 ${c} / ${t} — a good start. Go back to the Vocabulary tab, revise, then try again.`;
+  else msg=`💪 ${c} / ${t} — this is what practice is for. Revise the ⭐ Essential words first, then return.`;
+  el.textContent=msg; el.className="score show "+(pc>=.7?"good":"mid");
+  if(key&&key!=="drill"){
+    if(!ST.best[key]||c>ST.best[key]){ST.best[key]=c;persist();}
+    const b=document.getElementById("b"+key.slice(1));
+    if(b)b.textContent="Your best score so far: "+ST.best[key]+" / "+t;
+  }
+}
+["q1","q2","q3","q4"].forEach((k,i)=>{
+  const tot=[GAPS.length,PAIRS.length,TF.length,RECALL.length][i];
+  const b=document.getElementById("b"+(i+1));
+  if(b&&ST.best[k]!==undefined)b.textContent="Your best score so far: "+ST.best[k]+" / "+tot;
+});
+
+document.querySelector("#a1 tbody").innerHTML=GAPS.map((g,i)=>`<tr><td>${i+1}</td><td class="ans">${g[1]}</td></tr>`).join("");
+document.querySelector("#a2 tbody").innerHTML=PAIRS.map(p=>`<tr><td class="ans">${p[0]}</td><td>${p[1]}</td></tr>`).join("");
+document.querySelector("#a3 tbody").innerHTML=TF.map((t,i)=>`<tr><td>${i+1}. ${t[0]}</td><td class="ans">${t[1]?"True":"False"}</td><td>${t[2]}</td></tr>`).join("");
+document.querySelector("#a4 tbody").innerHTML=RECALL.map(r=>`<tr><td>${r[0]} / ${r[1]}</td><td class="ans">${r[2]}</td></tr>`).join("");
+
+const LIGHTS=["🔴","🟡","🟢"];
+document.querySelector("#track tbody").innerHTML=SETS.map((s,i)=>
+ `<tr><td><strong>${s}</strong></td>`+[0,1,2].map(col=>
+   `<td><div class="tl">`+LIGHTS.map((L,v)=>
+     `<button data-k="${i}_${col}" data-v="${v}" onclick="setLight(this)">${L}</button>`).join("")+
+   `</div></td>`).join("")+`</tr>`).join("");
+function setLight(b){
+  const k=b.dataset.k;
+  ST.track[k]=+b.dataset.v; persist();
+  document.querySelectorAll(`.tl button[data-k="${k}"]`).forEach(x=>
+    x.classList.toggle("on",+x.dataset.v===ST.track[k]));
+}
+Object.keys(ST.track).forEach(k=>{
+  document.querySelectorAll(`.tl button[data-k="${k}"]`).forEach(x=>
+    x.classList.toggle("on",+x.dataset.v===ST.track[k]));
+});
+
+function progressText(){
+  const n=WORDS.filter(w=>ST.learned[w[0]]).length;
+  const tots={q1:GAPS.length,q2:PAIRS.length,q3:TF.length,q4:RECALL.length};
+  const names={q1:"Gap fill",q2:"Matching",q3:"True/False",q4:"Say it in English"};
+  let s=TOPIC+" vocabulary — my progress\nWords recalled correctly: "+n+" / "+TOTAL+"\n";
+  ["q1","q2","q3","q4"].forEach(k=>{
+    s+=names[k]+": "+(ST.best[k]!==undefined?ST.best[k]+" / "+tots[k]:"not attempted")+"\n";});
+  const green=Object.keys(ST.track).filter(k=>ST.track[k]===2).length;
+  s+="Sets rated green: "+green+" / "+(SETS.length*3);
+  return s;
+}
+function renderProgress(){
+  const n=WORDS.filter(w=>ST.learned[w[0]]).length;
+  document.getElementById("prog").innerHTML=
+    `<div style="font-family:var(--mono);font-size:30px;color:var(--accent);line-height:1.1">${n} / ${TOTAL}</div>`+
+    `<p class="lead" style="margin:6px 0 14px">words you have recalled correctly in the Word Drill</p>`+
+    `<div style="white-space:pre-wrap;font-family:var(--mono);font-size:13px;background:#f7fafc;border:1px solid var(--line);border-radius:9px;padding:13px">${progressText()}</div>`;
+}
+function copyProgress(){
+  const t=progressText();
+  try{navigator.clipboard.writeText(t);alert("Progress copied. Paste it into Teams.");}
+  catch(e){prompt("Copy this and paste it into Teams:",t);}
+}
+function wipe(){
+  if(!confirm("This clears your saved scores, your learned words and your tracker. Continue?"))return;
+  ST={best:{},learned:{},track:{}}; persist(); location.reload();
+}
+renderProgress();
+</script>
+</body>
+</html>

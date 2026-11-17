@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7.8 Surface Treatments and Finishes — Vocabulary Pack | GCSE D&T</title>
+<style>
+/* WASCZ EDT — GCSE D&T VOCABULARY PACK · HOUSE TEMPLATE v2
+   No external requests. Works offline and behind the GFW. */
+:root{
+  --navy:#0d1b2a; --amber:#d97706; --green:#166534; --red:#c0392b;
+  --teal:#0e7490; --purple:#5b21b6; --bg:#f0f4f8;
+  --accent:#6d28d9; --accentLt:#f3e8ff;
+  --secA:#6d28d9; --secB:#b45309; --secC:#0f766e;
+  --line:#d9e2ec; --ink:#14202e; --muted:#5b6b7c;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  --serif:Georgia,"Times New Roman","Songti SC","SimSun",serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.6;writing-mode:horizontal-tb;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px 70px;}
+header{background:var(--navy);color:#fff;padding:26px 0 0;}
+.hd{max-width:1180px;margin:0 auto;padding:0 18px;}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accentLt);margin:0 0 6px;}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4.4vw,40px);line-height:1.14;margin:0 0 8px;}
+.sub{color:#b9c7d6;font-size:15px;margin:0 0 18px;max-width:800px;}
+.hmeta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
+.chip{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);color:#e8f0f7;
+  font-family:var(--mono);font-size:11.5px;padding:5px 10px;border-radius:20px;}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;}
+nav.tabs button{background:rgba(255,255,255,.07);color:#cbd8e4;border:0;border-radius:10px 10px 0 0;
+  font-family:var(--sans);font-size:14.5px;font-weight:600;padding:13px 18px;cursor:pointer;white-space:nowrap;min-height:46px;}
+nav.tabs button:hover{background:rgba(255,255,255,.14);color:#fff;}
+nav.tabs button.on{background:var(--bg);color:var(--navy);}
+main{padding-top:26px;}
+.panel{display:none;} .panel.on{display:block;}
+h2{font-family:var(--serif);font-size:25px;font-weight:700;margin:34px 0 6px;color:var(--navy);}
+h2:first-child{margin-top:0;}
+h3{font-size:17px;font-weight:600;margin:26px 0 10px;color:var(--navy);}
+p.lead{color:var(--muted);margin:0 0 18px;max-width:840px;}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:18px;}
+.esl-tip{background:#fff8e6;border-left:5px solid var(--amber);border-radius:0 10px 10px 0;padding:14px 16px;margin:16px 0;font-size:14.5px;}
+.esl-tip strong{color:#92400e;}
+.note{background:var(--accentLt);border-left:5px solid var(--accent);border-radius:0 10px 10px 0;padding:14px 16px;margin:16px 0;font-size:14.5px;}
+.spec{font-family:var(--mono);font-size:11.5px;background:var(--navy);color:#fff;padding:3px 8px;border-radius:5px;display:inline-block;}
+.ctrls{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:22px;
+  display:flex;flex-wrap:wrap;gap:18px;align-items:center;}
+.ctrl-grp{display:flex;flex-wrap:wrap;gap:7px;align-items:center;}
+.ctrl-lbl{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+.fbtn{background:#eef3f8;border:1.5px solid transparent;color:var(--navy);border-radius:22px;
+  font-family:var(--sans);font-size:13.5px;font-weight:600;padding:9px 15px;cursor:pointer;min-height:40px;}
+.fbtn:hover{background:#e1eaf3;} .fbtn.on{background:var(--accent);color:#fff;}
+.tgl{background:#fff;border:1.5px solid var(--line);color:var(--navy);border-radius:22px;
+  font-family:var(--sans);font-size:13.5px;font-weight:600;padding:9px 15px;cursor:pointer;min-height:40px;}
+.tgl.on{background:var(--navy);color:#fff;border-color:var(--navy);}
+.set-hd{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:26px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--line);}
+.set-n{font-family:var(--mono);font-size:12px;color:#fff;background:var(--accent);padding:4px 10px;border-radius:6px;}
+.set-t{font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy);}
+.set-c{font-size:13px;color:var(--muted);margin-left:auto;font-family:var(--mono);}
+.secA .set-n{background:var(--secA);} .secB .set-n{background:var(--secB);} .secC .set-n{background:var(--secC);}
+.vocab-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px;align-items:start;}
+.vc{display:block;height:auto;overflow:visible;writing-mode:horizontal-tb;background:#fff;
+  border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;padding:15px 16px;}
+.vc.t1{border-left-color:var(--amber);background:#fffdf7;}
+.vc.t3{border-left-style:dashed;}
+.vc.mastered{box-shadow:inset 0 0 0 2px #b7e4c7;}
+.vc-top{display:flex;flex-direction:row;align-items:flex-start;gap:8px;writing-mode:horizontal-tb;margin-bottom:4px;}
+.vc-word{flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;writing-mode:horizontal-tb;
+  font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy);line-height:1.25;}
+.spk{flex-shrink:0;background:#eef3f8;border:0;border-radius:8px;cursor:pointer;font-size:15px;width:34px;height:34px;line-height:1;padding:0;}
+.spk:hover{background:var(--accentLt);}
+.vc-tag{flex-shrink:0;white-space:nowrap;writing-mode:horizontal-tb;font-family:var(--mono);font-size:10px;
+  letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px;background:#eef3f8;color:var(--muted);}
+.vc-tag.t1{background:#fef3c7;color:#92400e;}
+.vc-tag.t2{background:var(--accentLt);color:var(--navy);}
+.vc-tag.t3{background:#ede9fe;color:var(--purple);}
+.vc-body,.vc-def,.vc-ex,.vc-mem,.vc-l1{display:block;height:auto;overflow:visible;writing-mode:horizontal-tb;word-break:break-word;}
+.def-lbl{display:none;}
+.vc-def{font-size:14.5px;margin:6px 0 0;}
+.vc-ex{font-size:13.5px;color:var(--muted);margin-top:8px;padding-left:11px;border-left:2px solid var(--line);}
+.vc-mem{font-size:13px;margin-top:9px;background:#fff8e6;border-radius:7px;padding:8px 10px;color:#7c4a03;}
+.vc-l1{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);font-size:14px;display:none;}
+.vc-l1.show{display:block;}
+.l1row{display:flex;flex-direction:row;gap:8px;align-items:baseline;writing-mode:horizontal-tb;margin-top:3px;}
+.l1flag{flex-shrink:0;white-space:nowrap;font-family:var(--mono);font-size:10px;color:var(--muted);width:34px;}
+.l1txt{flex:1;min-width:0;writing-mode:horizontal-tb;word-break:break-word;color:var(--navy);}
+.l1btn{background:none;border:1px dashed var(--line);border-radius:16px;color:var(--muted);
+  font-family:var(--sans);font-size:12px;padding:5px 11px;cursor:pointer;margin-top:9px;min-height:34px;}
+.l1btn:hover{border-color:var(--accent);color:var(--accent);}
+.q{margin-bottom:15px;padding-bottom:15px;border-bottom:1px solid var(--line);}
+.q:last-of-type{border-bottom:0;}
+.qn{font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:4px;}
+.bank{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px;padding:14px;background:#eef3f8;border-radius:10px;}
+.bank span{background:#fff;border:1px solid var(--line);border-radius:18px;padding:6px 13px;font-size:14px;font-family:var(--mono);}
+input[type=text]{font-family:var(--sans);font-size:15px;padding:9px 11px;border:1.5px solid var(--line);
+  border-radius:8px;min-width:150px;min-height:42px;background:#fff;color:var(--ink);}
+input[type=text]:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent);}
+input.ok{border-color:var(--green);background:#eefbf3;}
+input.no{border-color:var(--red);background:#fdeeec;}
+.gap-line{font-size:15.5px;line-height:2.5;}
+.btn{background:var(--accent);color:#fff;border:0;border-radius:9px;font-family:var(--sans);
+  font-size:15px;font-weight:600;padding:12px 22px;cursor:pointer;min-height:46px;}
+.btn:hover{filter:brightness(1.12);}
+.btn.alt{background:#fff;color:var(--navy);border:1.5px solid var(--line);}
+.btnrow{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;}
+.score{margin-top:16px;padding:14px 16px;border-radius:10px;font-weight:600;display:none;}
+.score.show{display:block;}
+.score.good{background:#eefbf3;color:var(--green);border-left:5px solid var(--green);}
+.score.mid{background:#fff8e6;color:#92400e;border-left:5px solid var(--amber);}
+.best{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:8px;}
+.match{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.mcol{display:flex;flex-direction:column;gap:9px;}
+.mitem{background:#fff;border:1.5px solid var(--line);border-radius:9px;padding:12px 13px;cursor:pointer;
+  font-size:14.5px;text-align:left;min-height:46px;font-family:var(--sans);color:var(--ink);}
+.mitem:hover{border-color:var(--accent);}
+.mitem.sel{border-color:var(--navy);background:#eef3f8;}
+.mitem.done{border-color:var(--green);background:#eefbf3;color:var(--green);cursor:default;}
+.mitem.wrong{border-color:var(--red);background:#fdeeec;}
+.tf{background:#fff;border:1px solid var(--line);border-radius:11px;padding:15px;margin-bottom:12px;}
+.tf-s{font-size:15px;margin-bottom:11px;}
+.tf-b{display:flex;gap:9px;}
+.tf-b button{padding:9px 20px;border-radius:8px;border:1.5px solid var(--line);background:#fff;cursor:pointer;
+  font-family:var(--sans);font-size:14.5px;font-weight:600;min-height:44px;color:var(--ink);}
+.tf-b button:hover{border-color:var(--accent);}
+.tf-b button.ok{background:#eefbf3;border-color:var(--green);color:var(--green);}
+.tf-b button.no{background:#fdeeec;border-color:var(--red);color:var(--red);}
+.tf-fb{display:none;margin-top:11px;padding:11px 13px;border-radius:8px;font-size:14px;background:#eef3f8;}
+.tf-fb.show{display:block;}
+.rc{background:#fff;border:1px solid var(--line);border-radius:11px;padding:14px;margin-bottom:11px;}
+.rc-p{font-size:17px;color:var(--navy);margin-bottom:4px;}
+.rc-ru{font-size:13.5px;color:var(--muted);margin-bottom:10px;font-style:italic;}
+.dr{background:#fff;border:1px solid var(--line);border-radius:11px;padding:14px;margin-bottom:11px;}
+.dr-top{display:flex;flex-direction:row;gap:8px;align-items:flex-start;margin-bottom:8px;}
+.dr-n{flex-shrink:0;font-family:var(--mono);font-size:12px;color:var(--muted);width:26px;}
+.dr-d{flex:1;min-width:0;font-size:15px;}
+.dr-e{font-size:13px;color:var(--muted);margin:0 0 10px 26px;padding-left:10px;border-left:2px solid var(--line);}
+.dr-in{margin-left:26px;}
+.cov{background:var(--navy);color:#fff;border-radius:12px;padding:16px 18px;margin-bottom:18px;}
+.cov-n{font-family:var(--mono);font-size:30px;color:#8fd4ae;line-height:1.1;}
+.cov-l{font-size:14px;color:#b9c7d6;margin-top:4px;}
+.bar{height:9px;background:rgba(255,255,255,.16);border-radius:6px;margin-top:12px;overflow:hidden;}
+.bar i{display:block;height:100%;background:#8fd4ae;border-radius:6px;width:0;transition:width .4s;}
+.tbl-wrap{overflow-x:auto;margin:14px 0;}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:14px;background:#fff;}
+th{background:var(--navy);color:#fff;text-align:left;padding:11px 12px;font-weight:600;font-size:13px;}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+tr:nth-child(even) td{background:#fafcfe;}
+.ans{font-family:var(--mono);color:var(--green);font-weight:500;}
+.tl{display:flex;gap:5px;}
+.tl button{width:34px;height:34px;border-radius:50%;border:2px solid var(--line);background:#fff;
+  cursor:pointer;font-size:13px;line-height:1;padding:0;opacity:.35;}
+.tl button.on{opacity:1;border-color:var(--navy);}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:34px 18px 0;}
+@media(max-width:640px){.match{grid-template-columns:1fr;}.vocab-grid{grid-template-columns:1fr;}}
+@media print{
+  nav.tabs,.ctrls,.btnrow,.l1btn,.spk,header .hmeta{display:none!important;}
+  .panel{display:block!important;} body{background:#fff;}
+  .vc,.card,.tf{break-inside:avoid;}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="hd">
+    <p class="eyebrow">Edexcel GCSE (9–1) Design &amp; Technology · 1DT0 · Timbers · material-specific content</p>
+    <h1>7.8 Surface Treatments and Finishes for Functional and Aesthetic Purposes — Vocabulary Pack</h1>
+    <p class="sub">Why porous timber needs finishing, and the advantages and disadvantages of every finish on the specification — paint, stain, varnish, wax, oil, shellac and veneer. From your textbook pages 304–305. Learn the <strong>English</strong> — that is the language of your exam.</p>
+    <div class="hmeta">
+      <span class="chip">Spec 7.8 · surface finishes</span>
+      <span class="chip">Textbook pp. 304–305</span>
+      <span class="chip" id="chipCount"></span>
+      <span class="chip">Your progress is saved</span>
+    </div>
+    <nav class="tabs">
+      <button class="on" data-p="vocab">📖 Vocabulary</button>
+      <button data-p="quiz">✏️ Quizzes</button>
+      <button data-p="drill">🎯 Word Drill</button>
+      <button data-p="ans">✅ Answers &amp; Tracker</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<section class="panel on" id="vocab">
+  <h2>How this pack is tiered</h2>
+  <p class="lead" id="tierLead"></p>
+  <div class="ctrls">
+    <div class="ctrl-grp">
+      <span class="ctrl-lbl">Show</span>
+      <button class="fbtn on" data-f="all" id="fAll"></button>
+      <button class="fbtn" data-f="1" id="f1"></button>
+      <button class="fbtn" data-f="2" id="f2"></button>
+      <button class="fbtn" data-f="3" id="f3"></button>
+    </div>
+    <div class="ctrl-grp">
+      <span class="ctrl-lbl">Translation</span>
+      <button class="tgl" id="l1all">Show 中文 / Русский</button>
+    </div>
+  </div>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Vocabulary Notebook:</strong> Translation is hidden on purpose. Read the English
+    definition first and try to picture it. Only press <em>中文 / Русский</em> if you are stuck. Then, in your notebook,
+    write the word, the English definition <em>in your own words</em>, and one original sentence about a real product.
+    Copying the definition does not build memory — rewriting it does.
+  </div>
+  <div id="cards"></div>
+</section>
+
+<section class="panel" id="quiz">
+  <h2>Retrieval Quizzes</h2>
+  <p class="lead">Do these <strong>without looking at the vocabulary tab</strong>. Getting it wrong first, then checking,
+    builds stronger memory than reading the answer. Your best score for each quiz is saved.</p>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Productive Failure:</strong> Guess before you check. A wrong guess that you then correct is
+    remembered about twice as well as an answer you simply read. Your score here is not a grade — it is a map of what to revise.
+  </div>
+  <div class="card">
+    <h3>Quiz 1 — Gap fill</h3>
+    <p class="lead">Type one word or phrase in each gap. Spelling must be close — this is exam spelling practice.</p>
+    <div class="bank" id="bank1"></div>
+    <div id="gaps" class="gap-line"></div>
+    <div class="btnrow">
+      <button class="btn" onclick="markGap()">Check my answers</button>
+      <button class="btn alt" onclick="resetGap()">Clear</button>
+    </div>
+    <div class="score" id="s1"></div><div class="best" id="b1"></div>
+  </div>
+  <div class="card">
+    <h3>Quiz 2 — Match the word to the meaning</h3>
+    <p class="lead">Click a word on the left, then its meaning on the right. Green = correct.</p>
+    <div class="match"><div class="mcol" id="mL"></div><div class="mcol" id="mR"></div></div>
+    <div class="btnrow"><button class="btn alt" onclick="buildMatch()">Shuffle &amp; restart</button></div>
+    <div class="score" id="s2"></div><div class="best" id="b2"></div>
+  </div>
+  <div class="card">
+    <h3>Quiz 3 — True or False? <span class="spec">Common exam mistakes</span></h3>
+    <p class="lead">Most of these are things students get wrong every year. Read the explanation after each one.</p>
+    <div id="tfbox"></div>
+    <div class="score" id="s3"></div><div class="best" id="b3"></div>
+  </div>
+  <div class="card">
+    <h3>Quiz 4 — Say it in English <span class="spec">L1 → English recall</span></h3>
+    <p class="lead">You know the concept in your own language. Now produce the English word the examiner needs to see.
+      This is the only place translation is used — as a <em>prompt</em>, never as an answer.</p>
+    <div id="recall"></div>
+    <div class="btnrow">
+      <button class="btn" onclick="markRecall()">Check my answers</button>
+      <button class="btn alt" onclick="resetRecall()">Clear</button>
+    </div>
+    <div class="score" id="s4"></div><div class="best" id="b4"></div>
+  </div>
+</section>
+
+<section class="panel" id="drill">
+  <h2>Word Drill</h2>
+  <p class="lead">Ten words at a time, chosen at random. Read the meaning, write the word. Every word in this pack
+    will come up eventually — the four quizzes above only reach some of them. A word counts as
+    <strong>learned</strong> once you have recalled it correctly here.</p>
+  <div class="cov">
+    <div class="cov-n" id="covN">0 / 0</div>
+    <div class="cov-l" id="covL">words recalled correctly so far</div>
+    <div class="bar"><i id="covBar"></i></div>
+  </div>
+  <div class="ctrls">
+    <div class="ctrl-grp">
+      <span class="ctrl-lbl">Drill from</span>
+      <button class="fbtn on" data-d="all">All</button>
+      <button class="fbtn" data-d="1">⭐ Essential</button>
+      <button class="fbtn" data-d="2">Core</button>
+      <button class="fbtn" data-d="3">Stretch</button>
+      <button class="fbtn" data-d="todo">Not yet learned</button>
+    </div>
+  </div>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Spacing:</strong> Ten words, then stop. Come back tomorrow rather than doing forty today.
+    The same word met on three different days is remembered far longer than the same word met three times in one hour.
+  </div>
+  <div id="drillbox"></div>
+  <div class="btnrow">
+    <button class="btn" onclick="markDrill()">Check my answers</button>
+    <button class="btn alt" onclick="buildDrill()">Next 10 words</button>
+  </div>
+  <div class="score" id="s5"></div>
+</section>
+
+<section class="panel" id="ans">
+  <h2>Your Progress</h2>
+  <div class="card" id="prog"></div>
+  <div class="btnrow">
+    <button class="btn alt" onclick="copyProgress()">Copy my progress</button>
+    <button class="btn alt" onclick="wipe()">Reset everything</button>
+  </div>
+  <p class="lead" style="margin-top:12px">“Copy my progress” puts a short summary on your clipboard. Paste it into
+    Teams when your teacher asks for it. Your progress is stored on this device only — it is not sent anywhere.</p>
+  <h2>Answer Key</h2>
+  <div class="note"><strong>Teacher note:</strong> print this tab only (File → Print) for peer- or self-marking.
+    Students should mark in a different colour pen and correct their own errors underneath.</div>
+  <h3>Quiz 1 — Gap fill</h3>
+  <div class="tbl-wrap"><table id="a1"><thead><tr><th style="width:60px">Gap</th><th>Answer</th></tr></thead><tbody></tbody></table></div>
+  <h3>Quiz 2 — Matching</h3>
+  <div class="tbl-wrap"><table id="a2"><thead><tr><th style="width:32%">Word</th><th>Meaning</th></tr></thead><tbody></tbody></table></div>
+  <h3>Quiz 3 — True or False</h3>
+  <div class="tbl-wrap"><table id="a3"><thead><tr><th>Statement</th><th style="width:70px">Answer</th><th style="width:45%">Why</th></tr></thead><tbody></tbody></table></div>
+  <h3>Quiz 4 — Say it in English</h3>
+  <div class="tbl-wrap"><table id="a4"><thead><tr><th style="width:32%">Prompt</th><th>English answer</th></tr></thead><tbody></tbody></table></div>
+  <h2>Self-Assessment Tracker</h2>
+  <div class="esl-tip">
+    <strong>📌 ESL Strategy — Traffic Light Self-Assessment:</strong> For each set, click one circle.
+    🔴 = I cannot say it. 🟡 = I know it when I read it, but I cannot write it. 🟢 = I can use it in a sentence
+    without looking. Only 🟢 counts as learned. Re-test your 🔴 sets first, three days later. Your choices are saved.
+  </div>
+  <div class="tbl-wrap"><table id="track"><thead><tr>
+    <th style="width:40%">Set</th><th>Week 1</th><th>Week 2</th><th>Before the test</th>
+  </tr></thead><tbody></tbody></table></div>
+</section>
+
+<footer>
+  Wycombe Abbey School Changzhou · EDT Faculty · Verified against the Edexcel 1DT0 specification and textbook pp. 304–305.
+</footer>
+</main>
+
+<script>
+const PACK = {"topic": "7.8 Surface Treatments and Finishes", "sections": [{"id": "A", "cls": "secA", "title": "Why timber needs a finish", "spec": "7.8", "sets": [{"n": "Set A1", "t": "The reason for finishing", "w": [["Surface finish", "表面处理 / 饰面", "Отделка поверхности", 1, "A coating applied to wood that fills the pores and makes it water resistant and easy to wipe clean.", "A finish can also make a product look better.", "💡 Two purposes, always: protection first, appearance second. Say both."], ["Porous", "多孔的", "Пористый", 1, "Full of tiny holes that absorb liquid.", "Wood is porous, so it will absorb water and grease and quickly look dirty and damaged.", "💡 This single word explains why every wooden product gets finished."], ["Functional purpose", "功能性目的", "Функциональное назначение", 1, "A reason to do with how the product works and lasts.", "Water resistance, ease of cleaning and protection from damage are functional reasons for finishing timber.", "💡 The section title says 'functional <em>and</em> aesthetic'. Examiners expect both."], ["Aesthetic purpose", "美观目的", "Эстетическое назначение", 1, "A reason to do with how the product looks.", "A finish can make a product look better — a colour, a shine, or the grain brought out.", "💡 Pairs with 7.3 aesthetics. Same word, used about the finish this time."], ["Health and safety implications", "健康与安全影响", "Техника безопасности", 1, "The risks that must be considered when treating and finishing timber.", "Finishes and treatments may give off fumes or be harmful on skin, so ventilation and protective equipment matter.", "💡 The textbook flags this for 7.8 specifically. One line in an answer can earn a mark."]]}]}, {"id": "B", "cls": "secB", "title": "The finishes", "spec": "7.8", "sets": [{"n": "Set B1", "t": "Coloured finishes", "w": [["Painting", "涂漆 / 上漆", "Покраска", 1, "Applying a coloured pigment in liquid that dries out.", "Advantage: available in a range of colours. Disadvantage: covers up the natural wood grain.", "💡 Paint hides the grain. Stain keeps it. That is the difference examiners test."], ["Staining", "染色", "Морение", 1, "Applying a coloured liquid that soaks into the wood surface.", "Makes a pale-coloured wood like pine a darker colour, to mimic more expensive woods like oak or mahogany. But it does not look quite like another wood, as the pine grain still shows.", "💡 Mimics an expensive timber cheaply — but never perfectly."], ["Varnishing", "上清漆", "Лакировка", 1, "Applying a clear coating that dries to a shine.", "Gives a hardwearing finish that shows the grain of the wood, and can be a high gloss or a matt finish. But it can scratch or chip and expose the wood.", "💡 Clear and hardwearing — the usual choice where the grain should be seen."]]}, {"n": "Set B2", "t": "Rubbed finishes", "w": [["Wax", "蜡 / 打蜡", "Воск", 1, "A soft solid that is rubbed into the surface with a cloth.", "Easy to apply and gives a plain, natural look. But it rubs away and needs reapplying, and it is not a glossy finish.", "💡 Easiest to apply, least durable. A maintenance trade-off."], ["Oil", "油 / 上油", "Масло", 1, "A finish that is rubbed onto the surface and soaks in.", "Good waterproofing for timber, and vegetable oil on kitchen ware is non-toxic. The surface feels oily.", "💡 The food-safe option. Name it for chopping boards and kitchen ware."], ["Shellac", "虫胶", "Шеллак", 2, "A cloudy liquid made from a resin secreted by a beetle.", "Lots of layers are rubbed on and polished to create a finish called French polish. Traditionally used on expensive furniture for its glossy lustre, but easily damaged by water and heat.", "💡 A natural finish from an insect — and the most easily damaged of them all."], ["French polish", "法式抛光", "Французская полировка", 2, "The finish created by rubbing on and polishing many layers of shellac.", "Traditionally used on expensive furniture for its glossy lustre.", "💡 The finish, not the material. Shellac is what it is made from."], ["Veneering", "贴面", "Фанерование", 1, "Gluing a thin layer of wood onto the surface.", "An expensive, decorative wood like mahogany can be put onto a cheaper wood like pine or chipboard. But the veneer is natural wood, so it still needs a finish applied.", "💡 A finish on top of a finish — that catch-out is worth a mark."]]}]}, {"id": "C", "cls": "secC", "title": "Choosing a finish", "spec": "7.8", "sets": [{"n": "Set C1", "t": "Describing and choosing", "w": [["High gloss", "高光泽", "Глянцевое покрытие", 2, "A very shiny finish.", "Varnish can be a high gloss or a matt finish.", "💡 Gloss shows every scratch. Matt hides them. A real design decision."], ["Matt finish", "哑光", "Матовое покрытие", 2, "A finish with no shine.", "The alternative to high gloss when varnishing.", "💡 Know both words — they are how you describe a finish precisely."], ["Non-toxic", "无毒", "Нетоксичный", 2, "Safe to use where it may come into contact with food or skin.", "Vegetable oil on kitchen ware is non-toxic.", "💡 The reason oil beats varnish on a chopping board."], ["Hardwearing", "耐磨", "Износостойкий", 1, "Able to resist wear and damage in use.", "Varnish gives a hardwearing finish; wax does not and needs reapplying.", "💡 Match the finish to the use: a dining table needs hardwearing, a picture frame does not."]]}]}], "gaps": [["Wood is", "porous", ", so it absorbs water and grease and quickly looks dirty."], ["A coloured pigment in liquid that dries out is", "paint", "."], ["A coloured liquid that soaks into the wood surface is a", "stain", "."], ["A clear coating that dries to a shine is", "varnish", "."], ["A soft solid rubbed into the surface with a cloth is", "wax", "."], ["A cloudy liquid made from a resin secreted by a beetle is", "shellac", "."], ["Many layers of shellac rubbed on and polished create a finish called", "French polish", "."], ["A finish that waterproofs timber and is non-toxic on kitchen ware is", "oil", "."], ["Gluing a thin layer of expensive wood onto a cheaper one is called", "veneering", "."], ["Varnish can be a high gloss finish or a", "matt", "finish."]], "bank": ["stain", "matt", "porous", "French polish", "oil", "shellac", "veneering", "paint", "wax", "varnish"], "pairs": [["Painting", "Available in many colours, but covers up the natural grain"], ["Staining", "Makes pine look like oak, though the pine grain still shows"], ["Varnishing", "Hardwearing and shows the grain, but can scratch or chip"], ["Wax", "Easy to apply and natural looking, but rubs away over time"], ["Oil", "Good waterproofing; vegetable oil is non-toxic on kitchen ware"], ["Shellac", "A glossy lustre on expensive furniture, damaged by water and heat"], ["Veneering", "Still needs a finish applied, because it is natural wood"], ["Porous", "Why untreated wood absorbs water and grease"]], "tf": [["A surface finish is applied only to make a product look better.", false, "FALSE. Wood is porous, so it absorbs water and grease and quickly looks dirty and damaged. A finish fills the pores and makes it water resistant and easy to wipe clean. Looking better is a second reason, not the only one."], ["Staining pine makes it look exactly like oak.", false, "FALSE. Stain makes a pale wood darker to mimic more expensive woods, but it does not look quite like another wood, because the pine grain still shows."], ["Varnish is hardwearing, but it can chip and expose the wood underneath.", true, "TRUE. Varnish gives a hardwearing finish that shows the grain, but it can scratch or chip and expose the wood."], ["A veneered surface does not need any further finish.", false, "FALSE. The veneer is natural wood, so it still needs a finish applied."], ["Oil is a good choice of finish for kitchen ware.", true, "TRUE. Oil gives good waterproofing for timber, and vegetable oil on kitchen ware is non-toxic. The only drawback is that the surface feels oily."], ["Wax gives a long-lasting, glossy finish.", false, "FALSE. Wax is easy to apply and gives a plain, natural look, but it rubs away and needs reapplying, and it is not a glossy finish."]], "recall": [["多孔的", "Пористый", "porous"], ["表面处理 / 饰面", "Отделка поверхности", "surface finish"], ["涂漆 / 上漆", "Покраска", "painting"], ["染色", "Морение", "staining"], ["上清漆", "Лакировка", "varnishing"], ["蜡 / 打蜡", "Воск", "wax"], ["油 / 上油", "Масло", "oil"], ["虫胶", "Шеллак", "shellac"], ["法式抛光", "Французская полировка", "French polish"], ["耐磨", "Износостойкий", "hardwearing"]]};
+const TOPIC=PACK.topic, SECTIONS=PACK.sections, GAPS=PACK.gaps, BANK=PACK.bank,
+      PAIRS=PACK.pairs, TF=PACK.tf, RECALL=PACK.recall;
+
+const WORDS=[]; const SETS=[];
+SECTIONS.forEach(sec=>sec.sets.forEach(s=>{SETS.push(s.n+" — "+s.t);s.w.forEach(w=>WORDS.push(w));}));
+const TOTAL=WORDS.length;
+const TC={1:0,2:0,3:0}; WORDS.forEach(w=>TC[w[3]]++);
+
+document.getElementById("chipCount").textContent=TOTAL+" keywords · 3 tiers";
+document.getElementById("fAll").textContent="All "+TOTAL;
+document.getElementById("f1").textContent="⭐ Essential "+TC[1];
+document.getElementById("f2").textContent="Core "+TC[2];
+document.getElementById("f3").textContent="Stretch "+TC[3];
+document.getElementById("tierLead").innerHTML=
+ "Do not try to learn "+TOTAL+" words at once. Start with the "+TC[1]+" <strong>⭐ Essential</strong> words — you cannot "+
+ "answer a "+TOPIC+" exam question without them. Then build outwards. <strong>Stretch</strong> words are for Grade 7–9 answers. "+
+ "Press 🔊 on any card to hear the word said aloud.";
+
+const KEY="wascz_vocab_"+TOPIC.replace(/\W/g,"_");
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return{}}}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}}
+let ST=load(); ST.best=ST.best||{}; ST.learned=ST.learned||{}; ST.track=ST.track||{};
+
+function speak(t){
+  try{
+    if(!window.speechSynthesis)return;
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(t);
+    u.lang="en-GB"; u.rate=.85;
+    const vs=speechSynthesis.getVoices()||[];
+    const v=vs.find(x=>x.lang==="en-GB")||vs.find(x=>x.lang&&x.lang.indexOf("en")===0);
+    if(v)u.voice=v;
+    speechSynthesis.speak(u);
+  }catch(e){}
+}
+if(window.speechSynthesis)speechSynthesis.onvoiceschanged=function(){};
+
+const TIER={1:"⭐ Essential",2:"Core",3:"Stretch"};
+const esc=s=>s.replace(/"/g,"&quot;").replace(/'/g,"\\'");
+function renderCards(f){
+  let h="";
+  SECTIONS.forEach(sec=>{
+    const sets=sec.sets.map(s=>({...s,w:s.w.filter(x=>f==="all"||String(x[3])===f)})).filter(s=>s.w.length);
+    if(!sets.length)return;
+    h+=`<h2>Section ${sec.id} — ${sec.title} <span class="spec">${sec.spec}</span></h2>`;
+    sets.forEach(s=>{
+      h+=`<div class="set-hd ${sec.cls}"><span class="set-n">${s.n}</span><span class="set-t">${s.t}</span><span class="set-c">${s.w.length} words</span></div><div class="vocab-grid">`;
+      s.w.forEach(w=>{
+        h+=`<div class="vc t${w[3]}${ST.learned[w[0]]?" mastered":""}"><div class="vc-top">`+
+           `<div class="vc-word">${w[0]}</div>`+
+           `<button class="spk" title="Hear this word" onclick="speak('${esc(w[0])}')">🔊</button>`+
+           `<div class="vc-tag t${w[3]}">${TIER[w[3]]}</div></div><div class="vc-body">`+
+           `<div class="vc-def"><span class="def-lbl">Simple Definition</span>${w[4]}</div>`+
+           `<div class="vc-ex">${w[5]}</div><div class="vc-mem">${w[6]}</div>`+
+           `<button class="l1btn" onclick="this.nextElementSibling.classList.toggle('show')">中文 / Русский</button>`+
+           `<div class="vc-l1"><div class="l1row"><span class="l1flag">中文</span><span class="l1txt">${w[1]}</span></div>`+
+           `<div class="l1row"><span class="l1flag">РУС</span><span class="l1txt">${w[2]}</span></div></div>`+
+           `</div></div>`;
+      });
+      h+=`</div>`;
+    });
+  });
+  document.getElementById("cards").innerHTML=h;
+}
+renderCards("all");
+document.querySelectorAll("#vocab .fbtn").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#vocab .fbtn").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); renderCards(b.dataset.f);
+  const t=document.getElementById("l1all"); t.classList.remove("on"); t.textContent="Show 中文 / Русский";
+});
+document.getElementById("l1all").onclick=function(){
+  const on=!this.classList.contains("on");
+  this.classList.toggle("on",on);
+  this.textContent=on?"Hide 中文 / Русский":"Show 中文 / Русский";
+  document.querySelectorAll(".vc-l1").forEach(e=>e.classList.toggle("show",on));
+};
+document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("nav.tabs button").forEach(x=>x.classList.remove("on"));
+  document.querySelectorAll(".panel").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); document.getElementById(b.dataset.p).classList.add("on");
+  if(b.dataset.p==="ans")renderProgress();
+  window.scrollTo(0,0);
+});
+
+document.getElementById("bank1").innerHTML=BANK.map(b=>`<span>${b}</span>`).join("");
+document.getElementById("gaps").innerHTML=GAPS.map((g,i)=>
+  `<div class="q"><div class="qn">Gap ${i+1}</div>${g[0]?g[0]+" ":""}<input type="text" id="g${i}" autocomplete="off"> ${g[2]}</div>`).join("");
+function norm(s){return (s||"").toLowerCase().trim().replace(/\s+/g," ");}
+function markGap(){
+  let c=0;
+  GAPS.forEach((g,i)=>{const el=document.getElementById("g"+i),ok=norm(el.value)===norm(g[1]);
+    el.classList.toggle("ok",ok);el.classList.toggle("no",!ok);if(ok)c++;});
+  show("s1",c,GAPS.length,"q1");
+}
+function resetGap(){GAPS.forEach((g,i)=>{const e=document.getElementById("g"+i);e.value="";e.className="";});
+  document.getElementById("s1").className="score";}
+
+let mSel=null,mDone=0;
+function shuf(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function buildMatch(){
+  mSel=null;mDone=0;document.getElementById("s2").className="score";
+  const L=shuf(PAIRS.map((p,i)=>({t:p[0],i}))),R=shuf(PAIRS.map((p,i)=>({t:p[1],i})));
+  document.getElementById("mL").innerHTML=L.map(x=>`<button class="mitem" data-i="${x.i}" data-s="L">${x.t}</button>`).join("");
+  document.getElementById("mR").innerHTML=R.map(x=>`<button class="mitem" data-i="${x.i}" data-s="R">${x.t}</button>`).join("");
+  document.querySelectorAll("#mL .mitem,#mR .mitem").forEach(b=>b.onclick=()=>pick(b));
+}
+function pick(b){
+  if(b.classList.contains("done"))return;
+  if(!mSel){mSel=b;b.classList.add("sel");return;}
+  if(mSel===b){b.classList.remove("sel");mSel=null;return;}
+  if(mSel.dataset.s===b.dataset.s){mSel.classList.remove("sel");mSel=b;b.classList.add("sel");return;}
+  if(mSel.dataset.i===b.dataset.i){
+    mSel.className="mitem done";b.className="mitem done";mSel=null;mDone++;
+    if(mDone===PAIRS.length)show("s2",PAIRS.length,PAIRS.length,"q2");
+  }else{const a=mSel;a.classList.add("wrong");b.classList.add("wrong");
+    setTimeout(()=>{a.className="mitem";b.className="mitem";},650);mSel=null;}
+}
+buildMatch();
+
+document.getElementById("tfbox").innerHTML=TF.map((t,i)=>
+ `<div class="tf"><div class="tf-s"><strong>${i+1}.</strong> ${t[0]}</div>
+  <div class="tf-b"><button onclick="ansTF(${i},true,this)">True</button>
+  <button onclick="ansTF(${i},false,this)">False</button></div>
+  <div class="tf-fb" id="tf${i}">${t[2]}</div></div>`).join("");
+let tfDone=new Set(),tfRight=0;
+function ansTF(i,v,btn){
+  if(tfDone.has(i))return; tfDone.add(i);
+  const ok=(v===TF[i][1]); btn.classList.add(ok?"ok":"no"); if(ok)tfRight++;
+  document.getElementById("tf"+i).classList.add("show");
+  if(tfDone.size===TF.length)show("s3",tfRight,TF.length,"q3");
+}
+
+document.getElementById("recall").innerHTML=RECALL.map((r,i)=>
+ `<div class="rc"><div class="rc-p">${r[0]}</div><div class="rc-ru">${r[1]}</div>
+  <input type="text" id="r${i}" placeholder="Write the English word…" autocomplete="off"></div>`).join("");
+function markRecall(){
+  let c=0;
+  RECALL.forEach((r,i)=>{const el=document.getElementById("r"+i),ok=norm(el.value)===norm(r[2]);
+    el.classList.toggle("ok",ok);el.classList.toggle("no",!ok);if(ok)c++;});
+  show("s4",c,RECALL.length,"q4");
+}
+function resetRecall(){RECALL.forEach((r,i)=>{const e=document.getElementById("r"+i);e.value="";e.className="";});
+  document.getElementById("s4").className="score";}
+
+let drillPool="all", drillSet=[];
+function poolWords(){
+  if(drillPool==="todo"){const t=WORDS.filter(w=>!ST.learned[w[0]]);return t.length?t:WORDS;}
+  if(drillPool==="all")return WORDS;
+  return WORDS.filter(w=>String(w[3])===drillPool);
+}
+function buildDrill(){
+  const p=poolWords();
+  drillSet=shuf(p).slice(0,Math.min(10,p.length));
+  document.getElementById("drillbox").innerHTML=drillSet.map((w,i)=>
+   `<div class="dr"><div class="dr-top"><span class="dr-n">${i+1}</span><span class="dr-d">${w[4]}</span></div>
+    <div class="dr-e">${w[5]}</div>
+    <div class="dr-in"><input type="text" id="d${i}" placeholder="Which word is this?" autocomplete="off"></div></div>`).join("");
+  document.getElementById("s5").className="score";
+}
+function markDrill(){
+  let c=0;
+  drillSet.forEach((w,i)=>{
+    const el=document.getElementById("d"+i), ok=norm(el.value)===norm(w[0]);
+    el.classList.toggle("ok",ok); el.classList.toggle("no",!ok);
+    if(ok){c++; ST.learned[w[0]]=true;} else {el.value=el.value?el.value+"  →  "+w[0]:w[0];}
+  });
+  persist(); updateCov(); show("s5",c,drillSet.length,"drill");
+}
+function updateCov(){
+  const n=WORDS.filter(w=>ST.learned[w[0]]).length;
+  document.getElementById("covN").textContent=n+" / "+TOTAL;
+  document.getElementById("covBar").style.width=(n/TOTAL*100)+"%";
+  document.getElementById("covL").textContent= n===TOTAL
+    ? "every word recalled correctly — now go back and do it again from memory"
+    : "words recalled correctly so far";
+}
+document.querySelectorAll("#drill .fbtn").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#drill .fbtn").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); drillPool=b.dataset.d; buildDrill();
+});
+buildDrill(); updateCov();
+
+function show(id,c,t,key){
+  const el=document.getElementById(id), pc=c/t;
+  let msg;
+  if(pc===1) msg=`🏆 ${c} / ${t} — every one correct. Excellent work.`;
+  else if(pc>=.7) msg=`✅ ${c} / ${t} — well done. Check the ones in red and write them out once more.`;
+  else if(pc>=.4) msg=`👍 ${c} / ${t} — a good start. Go back to the Vocabulary tab, revise, then try again.`;
+  else msg=`💪 ${c} / ${t} — this is what practice is for. Revise the ⭐ Essential words first, then return.`;
+  el.textContent=msg; el.className="score show "+(pc>=.7?"good":"mid");
+  if(key&&key!=="drill"){
+    if(!ST.best[key]||c>ST.best[key]){ST.best[key]=c;persist();}
+    const b=document.getElementById("b"+key.slice(1));
+    if(b)b.textContent="Your best score so far: "+ST.best[key]+" / "+t;
+  }
+}
+["q1","q2","q3","q4"].forEach((k,i)=>{
+  const tot=[GAPS.length,PAIRS.length,TF.length,RECALL.length][i];
+  const b=document.getElementById("b"+(i+1));
+  if(b&&ST.best[k]!==undefined)b.textContent="Your best score so far: "+ST.best[k]+" / "+tot;
+});
+
+document.querySelector("#a1 tbody").innerHTML=GAPS.map((g,i)=>`<tr><td>${i+1}</td><td class="ans">${g[1]}</td></tr>`).join("");
+document.querySelector("#a2 tbody").innerHTML=PAIRS.map(p=>`<tr><td class="ans">${p[0]}</td><td>${p[1]}</td></tr>`).join("");
+document.querySelector("#a3 tbody").innerHTML=TF.map((t,i)=>`<tr><td>${i+1}. ${t[0]}</td><td class="ans">${t[1]?"True":"False"}</td><td>${t[2]}</td></tr>`).join("");
+document.querySelector("#a4 tbody").innerHTML=RECALL.map(r=>`<tr><td>${r[0]} / ${r[1]}</td><td class="ans">${r[2]}</td></tr>`).join("");
+
+const LIGHTS=["🔴","🟡","🟢"];
+document.querySelector("#track tbody").innerHTML=SETS.map((s,i)=>
+ `<tr><td><strong>${s}</strong></td>`+[0,1,2].map(col=>
+   `<td><div class="tl">`+LIGHTS.map((L,v)=>
+     `<button data-k="${i}_${col}" data-v="${v}" onclick="setLight(this)">${L}</button>`).join("")+
+   `</div></td>`).join("")+`</tr>`).join("");
+function setLight(b){
+  const k=b.dataset.k;
+  ST.track[k]=+b.dataset.v; persist();
+  document.querySelectorAll(`.tl button[data-k="${k}"]`).forEach(x=>
+    x.classList.toggle("on",+x.dataset.v===ST.track[k]));
+}
+Object.keys(ST.track).forEach(k=>{
+  document.querySelectorAll(`.tl button[data-k="${k}"]`).forEach(x=>
+    x.classList.toggle("on",+x.dataset.v===ST.track[k]));
+});
+
+function progressText(){
+  const n=WORDS.filter(w=>ST.learned[w[0]]).length;
+  const tots={q1:GAPS.length,q2:PAIRS.length,q3:TF.length,q4:RECALL.length};
+  const names={q1:"Gap fill",q2:"Matching",q3:"True/False",q4:"Say it in English"};
+  let s=TOPIC+" vocabulary — my progress\nWords recalled correctly: "+n+" / "+TOTAL+"\n";
+  ["q1","q2","q3","q4"].forEach(k=>{
+    s+=names[k]+": "+(ST.best[k]!==undefined?ST.best[k]+" / "+tots[k]:"not attempted")+"\n";});
+  const green=Object.keys(ST.track).filter(k=>ST.track[k]===2).length;
+  s+="Sets rated green: "+green+" / "+(SETS.length*3);
+  return s;
+}
+function renderProgress(){
+  const n=WORDS.filter(w=>ST.learned[w[0]]).length;
+  document.getElementById("prog").innerHTML=
+    `<div style="font-family:var(--mono);font-size:30px;color:var(--accent);line-height:1.1">${n} / ${TOTAL}</div>`+
+    `<p class="lead" style="margin:6px 0 14px">words you have recalled correctly in the Word Drill</p>`+
+    `<div style="white-space:pre-wrap;font-family:var(--mono);font-size:13px;background:#f7fafc;border:1px solid var(--line);border-radius:9px;padding:13px">${progressText()}</div>`;
+}
+function copyProgress(){
+  const t=progressText();
+  try{navigator.clipboard.writeText(t);alert("Progress copied. Paste it into Teams.");}
+  catch(e){prompt("Copy this and paste it into Teams:",t);}
+}
+function wipe(){
+  if(!confirm("This clears your saved scores, your learned words and your tracker. Continue?"))return;
+  ST={best:{},learned:{},track:{}}; persist(); location.reload();
+}
+renderProgress();
+</script>
+</body>
+</html>
